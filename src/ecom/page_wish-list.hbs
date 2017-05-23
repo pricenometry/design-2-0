@@ -1,0 +1,77 @@
+<!-- Bread Сrumbs Start -->
+<div class="main-bread">
+	<div class="box-1675">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="block-bread">
+					<span><a href="/">Home</a></span>
+					<span><i class="fa fa-angle-right" aria-hidden="true"></i>Wishlist</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Bread Сrumbs End -->
+
+
+<!-- Blocks with the goods Start -->
+<div class="main-wishlist">
+	<div class="box-1675">
+		<div class="container-fluid">
+			<div class="row">
+					<div class="col-sidebar">
+						<!-- Block Bar Categories Start -->
+						{{> part-bar_categories}}
+						<!-- Block Bar Categories End -->
+
+						<!-- Block Bar Bunner Start -->
+						{{> part-bar_bunner}}
+						<!-- Block Bar Bunner End -->
+
+						<!-- Block Bar Offers Start -->
+						{{> part-bar_offers}}
+						<!-- Block Bar Offers End -->
+					</div>
+				<div class="wishlist-content">
+				<div class="title-wishlist entry-title">
+					<h1>wishlist</h1>	
+				</div>
+				
+				<div class="wish-list">
+					{{#each products}}
+						<div class="block-cart">
+							<form action="/">
+								<table>
+									<tbody>
+										<tr>
+											<td class="cart-thumbnail">
+												<div class="cart-img"><a href="page_product_2.html"><img src="{{images.[0].small}}" alt=""></a></div>
+											</td>
+											<td class="cart-name-prodct" data-title="Product">
+												<a href="page_product_2.html"><span>{{name}}</span></a>
+											</td>
+											<td class="cart-mark" data-mark="Mark">
+												<span>{{manufacturer}}</span>
+											</td>
+											<td class="alone-price" data-price="Price">
+												<span>{{price}}</span>
+											</td>
+											<td>
+											<a href="page_cart-step-one.html" class="button-small">Add to cart </a>
+											
+											<td>
+												<a href="#" class="delete-cart-product"></a>
+											</td>
+										</tr>
+									</tbody>	
+								</table>
+							</form>
+						</div>
+					{{/each}}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- Blocks with the goods End -->

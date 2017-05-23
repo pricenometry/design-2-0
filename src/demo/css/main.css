@@ -1,0 +1,217 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("Roboto-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+
+}
+@font-face {
+    font-family: "RobotoRegular";
+    src: url("Roboto-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+
+}
+    .main-wrapper {
+        padding-top: 75px;
+        padding-bottom: 22px;
+    }
+    .header {
+        background-color: #00ceff;
+    }
+    .demo-header {
+        color: #fff;
+        text-align: center;
+        font-size: 50px;
+        font-family: "Roboto";
+        font-weight: bold;
+        margin-bottom: 66px;
+        margin-top: 66px;
+    }
+    .demo-thumbnail {
+        text-align: center;
+    }
+
+    .demo-thumbnail h4 {
+        text-align: center;
+        font-family: PTSansRegular, sans-serif;
+        font-weight: normal;
+        font-size: 27px;
+        color: #777777;
+    }
+
+    .demo-thumbnail p {
+        font-family: PTSansRegular, sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        color: #878787;
+    }
+
+    .demo-thumbnail .btn {
+        margin-bottom: 50px;
+        text-decoration: none;
+    }
+
+    .webark-demo-wrapper {
+        cursor: pointer;
+        display: block;
+        width: 100%;
+        margin-top: 75px;
+        margin-bottom: 30px;
+        -webkit-transition: all 1s ease-in 0.5s;
+        transition: all 1s ease-in 0.5s;
+    }
+    
+    .webark-demo-wrapper:hover {
+        opacity: 0.6;
+    }
+
+    .webark-demo-wrapper img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer {
+        background-color: #eeedeb;
+        text-align: center;
+        padding-bottom: 75px;
+    }
+
+    .footer .demo-header {
+        margin-bottom: 20px;
+        color: #7b7b7b;
+    }
+ /***********/
+.imac {
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.screen {
+  background: #000;
+  border-radius: 3% 3% 0 0 / 5% 5% 0 0;
+  /* for aspect ratio */
+  position: relative;
+  width: 100%;
+}
+
+.screen:before {
+  content: "";
+  display: block;
+  /* for aspect ratio ~3:5 */
+  padding-top: 60%;
+}
+.title-demo {
+  font-size: 24px;
+  font-family: "RobotoRegular";
+  text-align: center;
+  color: #7b7b7b;
+  line-height: 1.1;
+margin-bottom: 56px;
+}
+.logo {
+  background: #c6c7ca;
+  border-radius: 0 0 3% 3%/ 0 0 33.33% 33.33%;
+  /* for aspect ratio */
+  position: relative;
+  width: 100%;
+  padding-bottom: 6px;
+}
+.logo img {
+    max-width: 50px;
+}
+.logo:before {
+  content: "";
+  display: block;
+  padding-top: 1.5%;
+}
+
+.viewport {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 4%;
+  background: #333;
+}
+.viewport a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 1;
+    position: absolute;
+}
+.leg {
+  margin: 0 auto;
+  /* for aspect ratio */
+  position: relative;
+  width: 20%;
+}
+
+.leg:before {
+  content: "";
+  display: block;
+  /* for aspect ratio ~46:100 */
+  padding-top: 46%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#a6a7a9), color-stop(22%, #abacaf), color-stop(23%, #d0d1d2), color-stop(110%, #f2f2f2), color-stop(64%, #e4e4e4), color-stop(64%, #a6a7a9));
+  background: -webkit-linear-gradient(#a6a7a9, #abacaf 22%, #d0d1d2 23%, #f2f2f2 110%, #e4e4e4 64%, #a6a7a9);
+  background: linear-gradient(#a6a7a9, #abacaf 22%, #d0d1d2 23%, #f2f2f2 110%, #e4e4e4 64%, #a6a7a9);
+}
+
+.foot {
+  /* for aspect ratio */
+  position: relative;
+  width: 20%;
+  margin: 0 auto;
+  /* for perspective */
+  -webkit-perspective: 180px;
+  perspective: 180px;
+}
+
+.foot:before {
+  content: "";
+  display: block;
+  /* for aspect ratio ~2:5 */
+  padding-top: 40%;
+  /* for perspective */
+  -webkit-transform: rotateX(68deg);
+  transform: rotateX(68deg);
+  -webkit-transform-origin: center top;
+  -ms-transform-origin: center top;
+  transform-origin: center top;
+  background: -webkit-gradient(linear, left top, left bottom, from(#7b7b7b), color-stop(0%, #7f7f7f), color-stop(0%, #a6a6a6), color-stop(0%, #ccc), color-stop(0%, #aaa), color-stop(88%, #eee), color-stop(95%, #fff), color-stop(95%, #a9a9a9), color-stop(95%, #cec3c3));
+  background: -webkit-linear-gradient(#7b7b7b, #7f7f7f 0%, #a6a6a6 0%, #ccc 0%, #aaa 0%, #eee 88%, #fff 95%, #a9a9a9 95%, #cec3c3);
+  background: linear-gradient(#7b7b7b, #7f7f7f 0%, #a6a6a6 0%, #ccc 0%, #aaa 0%, #eee 88%, #fff 95%, #a9a9a9 95%, #cec3c3);
+  border-radius: 0 0 10% 10% / 0 0 30% 30%;
+  -webkit-box-shadow: 0 -10px 5px rgba(255, 255, 255, 0.1) inset, 0 -17px 6px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 -10px 5px rgba(255, 255, 255, 0.1) inset, 0 -17px 6px rgba(0, 0, 0, 0.1) inset;
+}
+
+
+/* Screenshot Hover Scroll Additions
+-------------------------------------------------------------- */
+.imac .viewport {
+  -webkit-transition: background-position 10s ease;
+  transition: background-position 10s ease;
+  background-position: 0 0;
+  background-size: 100% auto;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.imac:hover .viewport {
+  background-position: 0 100%;
+}
+
+.imac .viewport:after {
+  background: -webkit-radial-gradient(right bottom circle, transparent 75%, rgba(255, 255, 255, 0.05) 75%, transparent);
+  background: radial-gradient(circle at right bottom, transparent 75%, rgba(255, 255, 255, 0.05) 75%, transparent);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

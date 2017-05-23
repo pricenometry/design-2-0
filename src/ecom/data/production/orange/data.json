@@ -1,0 +1,261 @@
+{
+    "name": "ecom",
+    "url": "http://ecom.webark.io",
+    "color": "orange",
+    "menu": [{
+        "title": "Manufacturer",
+        "url": "index.html",
+        "submenu": [{
+            "title": "Manufacturer",
+            "url": "#"
+        }, {
+            "title": "Manufacturer",
+            "url": "#"
+        }, {
+            "title": "Manufacturer",
+            "subsubmenu": [{
+                "title": "Armchair АC-150KS",
+                "url": "#"
+            }, {
+                "title": "Oregon chair 723",
+                "url": "#"
+            }, {
+                "title": "Parma 180",
+                "url": "#"
+            }]
+        }]
+    }, {
+        "title": "Sofas",
+        "url": "product_accessories.html"
+    }, {
+        "title": "Armchairs",
+        "url": "product_gadgets.html"
+    }, {
+        "title": "Chairs",
+        "url": "product_laptops.html"
+    }, {
+        "title": "Nightstands",
+        "url": "product_computers.html"
+    }, {
+        "title": "Drawers",
+        "url": "product_audio.html"
+    }, {
+        "title": "Tables",
+        "url": "product_gps.html"
+    }],
+    "products": [{
+        "name": "Armchair АC-150KS",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$142.50",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Oregon chair 723",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$98",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Parma 180",
+        "image": "img/img-products/grey600.png",
+        "type": "",
+        "manufacturer": "Manufacturer",
+        "price": "$4190",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Roxy Canty RC-11",
+        "image": "img/img-products/grey600.png",
+        "type": "",
+        "manufacturer": "Manufacturer",
+        "price": "$875",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Armchair АC-150KS",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$142.50",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Oregon chair 723",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$98",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Parma 180",
+        "image": "img/img-products/grey600.png",
+        "type": "",
+        "manufacturer": "Manufacturer",
+        "price": "$4190",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Roxy Canty RC-11",
+        "image": "img/img-products/grey600.png",
+        "type": "",
+        "manufacturer": "Manufacturer",
+        "price": "$875",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }],
+    "products_slide": [{
+       "images": ["img/img-products/img1920x300.png", "img/img-products/img1920x300.png", "img/img-products/img1920x300.png"]
+   }],
+    "products_bunner": [{
+        "image": ["img/img-products/img249x130.png"]
+   }]
+}

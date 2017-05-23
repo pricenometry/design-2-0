@@ -1,0 +1,209 @@
+{
+    "name": "ecom",
+    "url": "http://ecom.webark.io",
+    "color": "green",
+    "menu": [{
+        "title": "Manufacturer",
+        "url": "index.html",
+        "submenu": [{
+            "title": "Manufacturer",
+            "url": "#"
+        }, {
+            "title": "Manufacturer",
+            "url": "#"
+        }, {
+            "title": "Manufacturer",
+            "subsubmenu": [{
+                "title": "Pro Staff PS97",
+                "url": "#"
+            }, {
+                "title": "Racket LW-835",
+                "url": "#"
+            }, {
+                "title": "Strands dry",
+                "url": "#"
+            }]
+        }]
+    }, {
+        "title": "Сycling",
+        "url": "product_accessories.html"
+    }, {
+        "title": "Basketball",
+        "url": "product_gadgets.html"
+    }, {
+        "title": "Volleyball",
+        "url": "product_laptops.html"
+    }, {
+        "title": "Yoga",
+        "url": "product_computers.html"
+    }, {
+        "title": "Fitness",
+        "url": "product_audio.html"
+    }, {
+        "title": "Tourism",
+        "url": "product_gps.html"
+    }],
+    "products": [{
+        "name": "Pro Staff PS97",
+        "image": "http://webark.io/ecom/presentation/html/img/green/product_1_1.jpg",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$88.75",
+        "sale": "",
+        "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/green/product_1_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/green/product_1_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/green/product_1_1_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/green/product_1_2.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/green/product_1_2_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/green/product_1_2_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/green/product_1_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/green/product_1_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/green/product_1_1_80x80.jpg"
+        }]
+    }, {
+        "name": "Racket LW-835",
+        "image": "http://webark.io/ecom/presentation/html/img/green/product_2_1.jpg",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$115",
+        "sale": "",
+         "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/green/product_2_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/green/product_2_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/green/product_2_1_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/green/product_2_2.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/green/product_2_2_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/green/product_2_2_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/green/product_2_3.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/green/product_2_3_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/green/product_2_3_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/green/product_2_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/green/product_2_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/green/product_2_1_80x80.jpg"
+        }]
+    }, {
+        "name": "Strands dry",
+        "image": "http://webark.io/ecom/presentation/html/img/green/product_3_1.jpg",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$77.50",
+        "sale": "",
+        "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/green/product_3_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/green/product_3_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/green/product_3_1_80x80.jpg"
+        }, 
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/green/product_3_2.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/green/product_3_2_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/green/product_3_2_80x80.jpg"
+        }]
+    }, {
+        "name": "Zakka X10RD",
+        "image": "http://webark.io/ecom/presentation/html/img/green/product_4_1.jpg",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$110.50",
+        "sale": "",
+        "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/green/product_4_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/green/product_4_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/green/product_4_1_80x80.jpg"
+        }]
+    }, {
+        "name": "Pro Staff PS97",
+        "image": "http://webark.io/ecom/presentation/html/img/green/product_1_1.jpg",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$88.75",
+        "sale": "",
+        "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/green/product_1_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/green/product_1_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/green/product_1_1_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/green/product_1_2.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/green/product_1_2_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/green/product_1_2_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/green/product_1_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/green/product_1_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/green/product_1_1_80x80.jpg"
+        }]
+    }, {
+        "name": "Racket LW-835",
+        "image": "http://webark.io/ecom/presentation/html/img/green/product_2_1.jpg",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$115",
+        "sale": "",
+        "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/green/product_2_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/green/product_2_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/green/product_2_1_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/green/product_2_2.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/green/product_2_2_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/green/product_2_2_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/green/product_2_3.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/green/product_2_3_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/green/product_2_3_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/green/product_2_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/green/product_2_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/green/product_2_1_80x80.jpg"
+        }]
+    }, {
+        "name": "Strands dry",
+        "image": "http://webark.io/ecom/presentation/html/img/green/product_3_1.jpg",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$77.50",
+        "sale": "",
+         "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/green/product_3_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/green/product_3_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/green/product_3_1_80x80.jpg"
+        }, 
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/green/product_3_2.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/green/product_3_2_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/green/product_3_2_80x80.jpg"
+        }]
+    }, {
+        "name": "Zakka X10RD",
+        "image": "http://webark.io/ecom/presentation/html/img/green/product_4_1.jpg",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$110.50",
+        "sale": "",
+        "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/green/product_4_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/green/product_4_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/green/product_4_1_80x80.jpg"
+        }]
+    }],
+    "products_slide": [{
+       "images": ["http://webark.io/ecom/presentation/html/img/green/baner-1.jpg", "http://webark.io/ecom/presentation/html/img/green/baner-2.jpg", "http://webark.io/ecom/presentation/html/img/green/baner-3.jpg"]
+   }],
+    "products_bunner": [{
+        "image": ["img/bunner-img.jpg"]
+    }]
+}

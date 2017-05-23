@@ -1,0 +1,261 @@
+{
+    "name": "ecom",
+    "url": "http://ecom.webark.io",
+    "color": "pink",
+    "menu": [{
+        "title": "Manufacturer",
+        "url": "index.html",
+        "submenu": [{
+            "title": "Manufacturer",
+            "url": "#"
+        }, {
+            "title": "Manufacturer",
+            "url": "#"
+        }, {
+            "title": "Manufacturer",
+            "subsubmenu": [{
+                "title": "YI-NOKI ABC",
+                "url": "#"
+            }, {
+                "title": "Intimates Juegos",
+                "url": "#"
+            }, {
+                "title": "Lolota",
+                "url": "#"
+            }]
+        }]
+    }, {
+        "title": "Bras",
+        "url": "product_accessories.html"
+    }, {
+        "title": "Panties",
+        "url": "product_gadgets.html"
+    }, {
+        "title": "Corsets",
+        "url": "product_laptops.html"
+    }, {
+        "title": "Brief Sets",
+        "url": "product_computers.html"
+    }, {
+        "title": "Nightgowns",
+        "url": "product_audio.html"
+    }, {
+        "title": "Pajamas",
+        "url": "product_gps.html"
+    }],
+    "products": [{
+        "name": "YI-NOKI ABC",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$14.95",
+        "sale": "",
+        "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Intimates Juegos",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$29.50",
+        "sale": "",
+        "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Lolota",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$19.45",
+        "sale": "",
+       "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Bihooo Lace",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$38.15",
+        "sale": "",
+        "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "YI-NOKI ABC",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$14.95",
+        "sale": "",
+        "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Intimates Juegos",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$29.50",
+        "sale": "",
+        "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Lolota",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$19.45",
+        "sale": "",
+        "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Bihooo Lace",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$38.15",
+        "sale": "",
+       "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }],
+    "products_slide": [{
+       "images": ["img/img-products/img1920x300.png", "img/img-products/img1920x300.png", "img/img-products/img1920x300.png"]
+   }],
+    "products_bunner": [{
+        "image": ["img/img-products/img249x130.png"]
+   }]
+}

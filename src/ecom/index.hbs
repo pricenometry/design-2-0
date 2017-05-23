@@ -1,0 +1,169 @@
+<div id="main-content"> <!-- Page Main Content Start-->
+	{{> part-slide-mob}}
+	<div class="main-content"><!-- Blocks with the goods Start -->
+		<div class="box-1675">
+			<div class="container-fluid">
+				<div class="row">
+					{{> part-sidebar}}
+					<div class="col-content">
+						<div class="title">
+							<h1>Hot offers</h1>
+						</div>
+						{{> part-sampe}}
+						<div class="display-unit">
+							<div class="block-products unit-one active" id="unit-one">
+								{{#each products}}
+									<form class="wrap-products-masonry js-change-img js-wrap-products" action="/">
+									{{#if @first}}<div class="block-bestseller"><p>Bestseller</p></div>{{/if}}
+										<a href="page_product_2.html" class="box-img-products">	
+											<img src="{{images.[0].medium}}" alt="">
+										</a>
+										<div class="prod-offer">
+											<a href="page_product_2.html" class="title-product" title="{{name}}">{{name}}</a>
+											<div class="wrap-info-prod">
+												<span class="mark-info-prod hidden-768"><a href="page_product_2.html">{{manufacturer}}</a></span>
+												<span class="shlist-info-prod"><a href="page_wish-list.html"><i class="fa fa-heart icon-wish" aria-hidden="true"></i>Wishlist (<span>10</span>)</a></span>
+												<span class="compare-info-prod"><a href="page_compare.html"><i class="fa fa-exchange icon-compare" aria-hidden="true"></i>Compare (<span>3</span>)</a></span>
+											</div>
+											{{#if images.length}}
+												<div class="box-preview-img hidden-768">
+													{{#each images}}
+														<div class="preview-img-mini {{#if @first}}preview-active{{/if}}" data-medium-img="{{medium}}">
+															<img src="{{small}}" alt="">
+														</div>
+													{{/each}}
+												</div>
+											{{/if}}
+											<div class="descr-prod hidden-768">
+												<p>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eaque dignissimos, illo quibusdam recusandae maiores ipsa quasi, est accusantium in, neque distinctio! Molestiae incidunt esse molestias a voluptatem assumenda laborum.
+												</p>
+											</div>
+											<div class="box-price-prod">
+												{{#if sale}}<span class="price-sale">{{sale}}</span>{{/if}}
+												<span class="price-now">{{price}}</span>
+											</div>
+											<a href="page_cart-step-one.html" class="btn-add-cart button-middle">Add to cart </a>
+										</div>
+									</form>
+								{{/each}}
+							</div>
+							<div class="block-products unit-four" id="unit-four">
+								{{#each products}}
+								<form class="wrap-products-masonry js-change-img js-wrap-products products-style-line" action="/">
+									{{#if @first}}<div class="block-bestseller-unitfour"><p>Bestseller</p></div>{{/if}}
+									<div class="left">
+										<a href="page_product_2.html" class="box-img-products">
+											<img src="{{images.[0].medium}}" alt="">
+										</a>
+									</div>
+									<div class="center">
+										<a href="page_product_2.html" class="title-product" title="{{name}}">{{name}}</a>
+										{{#if @first}}
+										<div class="box-price-prod">
+											<span class="price-sale hidden-1700">{{sale}}</span>
+										</div>
+										{{/if}}
+										<div class="wrap-info-prod">
+											<span class="mark-info-prod"><a href="page_product_2.html">{{manufacturer}}</a></span>
+										</div>
+										<div class="wrap">
+											{{#if images.length}}
+											<div class="box-preview-img hidden-md">
+												{{#each images}}
+													<div class="preview-img-mini {{#if @first}}preview-active{{/if}}" data-medium-img="{{medium}}">
+														<img src="{{small}}" alt="">
+													</div>
+												{{/each}}
+											</div>
+											{{/if}}
+										</div>
+									</div>
+									<div class="right">
+										<span class="price-now">{{price}}</span>
+										{{#if @first}}<span class="price-sale visible-1700">{{sale}}</span>{{/if}}
+										<a href="page_cart-step-one.html" class="btn-add-cart button-middle">Add to cart </a>
+									</div>
+								</form>
+								{{/each}}
+							</div>
+							<div class="block-products unit-two" id="unit-two">
+								{{#each products}}
+									<form class="wrap-products-masonry product-style-square js-change-img js-wrap-products" action="/">
+										{{#if @first}}<div class="block-bestseller-unittwo hidden-768"><p>Bestseller</p></div>{{/if}}
+										<a href="page_product_2.html" class="box-img-products">
+											<img src="{{images.[0].medium}}" alt="">
+										</a>
+										<div class="prod-offer">
+											<a href="page_product_2.html" class="title-product" title="{{name}}">{{name}}</a>
+											<div class="wrap-info-prod">
+												<span class="mark-info-prod"><a href="page_product_2.html">{{manufacturer}}</a></span>
+												<span class="shlist-info-prod"><a href="page_wish-list.html"><i class="fa fa-heart icon-wish" aria-hidden="true"></i>Wishlist (<span>10</span>)</a></span>
+												<span class="compare-info-prod"><a href="page_compare.html"><i class="fa fa-exchange icon-compare" aria-hidden="true"></i>Compare (<span>3</span>)</a></span>
+											</div>
+											{{#if images.length}}
+												<div class="box-preview-img">
+													{{#each images}}
+														<div class="preview-img-mini {{#if @first}}preview-active{{/if}}" data-medium-img="{{medium}}">
+															<img src="{{small}}" alt="">
+														</div>
+													{{/each}}
+												</div>
+											{{/if}}
+											<div class="square-foot">
+												<div class="box-price-prod">
+													{{#if sale}}<span class="price-sale">{{sale}}</span>{{/if}}
+													<span class="price-now">{{price}}</span>
+												</div>
+												<a href="page_cart-step-one.html" class="btn-add-cart button-middle">Add to cart </a>
+											</div>
+										</div>
+									</form>
+								{{/each}}
+							</div>
+							<div class="block-products unit-three" id="unit-three">
+								{{#each products}}
+									<form class="wrap-products-masonry product-style-rows js-change-img js-wrap-products" action="/">
+										{{#if @first}}<div class="block-bestseller-unitfour hidden-768"><p>Bestseller</p></div>{{/if}}
+										<a href="page_product_2.html" class="box-img-products">
+											<img src="{{images.[0].medium}}" alt="">
+										</a>
+										<div class="prod-offer">
+											<a href="page_product_2.html" class="title-product" title="{{name}}">{{name}}</a>
+											<div class="wrap-info-prod">
+												<span class="mark-info-prod"><a href="page_product_2.html">{{manufacturer}}</a></span>
+											</div>
+											<div class="square-foot">
+												<div class="box-price-prod">
+													{{#if sale}}<span class="price-sale">{{sale}}</span>{{/if}}
+													<span class="price-now">{{price}}</span>
+												</div>
+											</div>
+										</div>
+										<div class="square-hidden">
+											<a href="page_cart-step-one.html" class="btn-add-cart button-middle">Add to cart </a>
+											<div class="wrap-info-hidden-list">
+												<span class="shlist-info-prod"><a href="page_wish-list.html"><i class="fa fa-heart icon-wish" aria-hidden="true"></i>Wishlist (<span>10</span>)</a></span>
+												<span class="compare-info-prod"><a href="page_compare.html"><i class="fa fa-exchange icon-compare" aria-hidden="true"></i>Compare (<span>3</span>)</a></span>
+											</div>
+										</div>
+									</form>
+								{{/each}}
+							</div>
+						</div>
+						<div class="box-pagination">
+							<a href="#" class="item-pagination">1</a>
+							<a href="#" class="item-pagination">2</a>
+							<a href="#" class="item-pagination">3</a>
+							<a href="#" class="item-pagination active">4</a>
+							<a href="#" class="item-pagination">5</a>
+							<span class="dot-pagination">...</span>
+							<a href="#" class="item-pagination">95</a>
+						</div><!-- Block Content End -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- Blocks with the goods End -->
+
+</div><!-- Page Main Content End-->

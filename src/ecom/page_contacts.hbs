@@ -1,0 +1,89 @@
+
+<!-- Bread Сrumbs Start -->
+<div class="main-bread">
+<div class="box-1675">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="block-bread">
+          <span><a href="index.html">Home</a></span>
+          <span><i class="fa fa-angle-right" aria-hidden="true"></i>Contacts</span>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
+<!-- Bread Сrumbs End -->
+
+
+<!-- Blocks with the goods Start -->
+<div class="main-contacts">
+	<div class="box-1675">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sidebar">
+					<!-- Block Bar Categories Start -->
+					{{> part-bar_categories}}
+					<!-- Block Bar Categories End -->
+
+					<!-- Block Bar Bunner Start -->
+					{{> part-bar_bunner}}
+					<!-- Block Bar Bunner End -->
+
+					<!-- Block Bar Offers Start -->
+					{{> part-bar_offers}}
+					<!-- Block Bar Offers End -->				
+				</div>	
+				<div class="box-contacts">
+					<div class="title">
+						<h1>Contacts</h1>
+					</div>
+					<div class="top">
+						<form action="/" class="form-contact">
+							<input type="text" class="name" name="contact-name" placeholder="NAME">
+							<input type="text" class="email" name="contact-email" placeholder="E-MAIL">
+							<textarea name="contact-message" class="message" cols="30" rows="10" placeholder="MESSAGE"></textarea>
+							<input type="submit" class="btn-contact button-lardge" value="Add comment">
+						</form>
+						<div class="block-info">
+							<div class="block-email">
+								<span>Email</span>
+								<a href="mailto:support@website.com">Support@website.com</a>
+								<a href="mailto:info@website.com">Info@website.com</a>
+							</div>
+							<div class="block-phone">
+								<span>Phones</span>
+								<a href="tel:+16546698888">+1 654 669 8888</a>
+								<a href="tel:+16859778856">+1 685 977 8856</a>
+							</div>
+							<div class="block-adress">
+								<span>Adress</span>
+								<address>Baker street 54/6</address>
+							</div>
+						</div>
+					</div>
+					<div class="map">
+
+						<div style="width: auto;height: 432px; border: 3px solid #fff" id="mapAIzaSyBqEl3wGbheM0zP1TnNM6OTTnyCe_8JM3Q"></div>
+						<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqEl3wGbheM0zP1TnNM6OTTnyCe_8JM3Q&callback=GoogleReadyHandler"></script>
+ -->
+						<script>
+							function GoogleReadyHandler() {
+							var infowindow, map = new google.maps.Map(document.getElementById("mapAIzaSyBqEl3wGbheM0zP1TnNM6OTTnyCe_8JM3Q"), {
+								center: {lat: 38.94226219475702, lng: -81.36957666054684},
+								zoom: 11,
+								disableDefaultUI: true,
+								zoomControl: true,
+								mapTypeControl: true,
+								mapTypeId: "roadmap"
+							});
+							return map;
+						}
+						</script>
+					
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqEl3wGbheM0zP1TnNM6OTTnyCe_8JM3Q&callback=GoogleReadyHandler"></script>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

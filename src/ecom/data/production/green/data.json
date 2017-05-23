@@ -1,0 +1,261 @@
+{
+    "name": "ecom",
+    "url": "http://ecom.webark.io",
+    "color": "green",
+    "menu": [{
+        "title": "Manufacturer",
+        "url": "index.html",
+        "submenu": [{
+            "title": "Manufacturer",
+            "url": "#"
+        }, {
+            "title": "Manufacturer",
+            "url": "#"
+        }, {
+            "title": "Manufacturer",
+            "subsubmenu": [{
+                "title": "Pro Staff PS97",
+                "url": "#"
+            }, {
+                "title": "Racket LW-835",
+                "url": "#"
+            }, {
+                "title": "Strands dry",
+                "url": "#"
+            }]
+        }]
+    }, {
+        "title": "Сycling",
+        "url": "product_accessories.html"
+    }, {
+        "title": "Basketball",
+        "url": "product_gadgets.html"
+    }, {
+        "title": "Volleyball",
+        "url": "product_laptops.html"
+    }, {
+        "title": "Yoga",
+        "url": "product_computers.html"
+    }, {
+        "title": "Fitness",
+        "url": "product_audio.html"
+    }, {
+        "title": "Tourism",
+        "url": "product_gps.html"
+    }],
+    "products": [{
+        "name": "Pro Staff PS97",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$88.75",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Racket LW-835",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$115",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Strands dry",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$77.50",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Zakka X10RD",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$110.50",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Pro Staff PS97",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$88.75",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Racket LW-835",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$115",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Strands dry",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$77.50",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Zakka X10RD",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$110.50",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }],
+    "products_slide": [{
+       "images": ["img/img-products/img1920x300.png", "img/img-products/img1920x300.png", "img/img-products/img1920x300.png"]
+   }],
+    "products_bunner": [{
+        "image": ["img/img-products/img249x130.png"]
+   }]
+}

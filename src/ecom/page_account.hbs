@@ -1,0 +1,275 @@
+<div class="box-1675">
+<div class="main-myacc">
+	<div class="title">
+		<h1>My account</h1>
+	</div>
+	<div class="box-auther">
+		<img src="img/img-auther.jpg" alt="" class="auther-img">
+		<div class="name-auther">Stan S.</div>
+		<a href="#" class="link-edit-profile" id="js-edit-profile"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+Edit Profile</a>
+		<div class="total-bought">Total bought on <span>1200</span>$</div>
+	</div>
+
+	<div id="account-setting">
+  <ul>
+    <li><a href="#personal-information">Personal Infromation </a></li>
+    <li><a href="#personal-address">Address</a></li>
+    <li><a href="#personal-orders">Orders</a></li>
+      <li><a href="#personal-wish"> Wishlist</a></li>
+  </ul>
+  <div id="personal-information">
+   <form action="/" class="form-personal-information">
+   	<label>
+   		<span>Name:</span>
+   		<input type="text" class="input-style">
+   	</label>
+   	   	<label>
+   		<span>E-mail:</span>
+   		<input type="email" class="input-style">
+   	</label>
+   	   	<label>
+   		<span>Phone:</span>
+   		<input type="tel" class="input-style">
+   	</label>
+   	   	<label>
+   		<span><b>*</b>The original password:</span>
+   		<input type="password" class="input-style" value="12345678">
+   		<span class="change-password" id="js-change-password"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Change Password</span>
+   	</label>
+   	   	<label class="hidden-all js-show-pass">
+   		<span><b>*</b>New password:</span>
+   		<input type="password" class="input-style">
+   	</label>
+   	 	<label  class="hidden-all js-show-pass">
+   		<span><b>*</b>Сonfirm password:</span>
+   		<input type="password" class="input-style">
+   	</label>
+   	<input type="submit" class="button-lardge custom" value="save settings">
+   </form>
+  </div>
+  <div id="personal-address">
+     <form action="/" class="form-personal-address">
+   	<label>
+   		<span><b>*</b>First name:</span>
+   		<input type="text" class="input-style">
+   	</label>
+   	   	<label>
+   		<span><b>*</b>Last name:</span>
+   		<input type="text" class="input-style">
+   	</label>
+   	   	<label>
+   		<span><b>*</b>E-mail address:</span>
+   		<input type="email" class="input-style">
+   	</label>
+   	   	<label>
+   		<span><b>*</b>Street Address:</span>
+   		<input type="text" class="input-style">
+   		</label>
+   		<label>
+   		<input type="text" class="input-style">
+   		<span class="note">
+   			Note: Please provide a full, detailed shipping address in the destination country's local language: Room Number, Floor, House Number and Street Name. Thank you.
+   		</span>
+   	</label>
+   	   	<label>
+   		<span><b>*</b>Country / Region:</span>
+   		<input type="text" class="input-style">
+   	</label>
+   	<label>
+   		<span><b>*</b>State/County:</span>
+   		<input type="text" class="input-style">
+   	</label>
+   		<label>
+   		<span><b>*</b>City:</span>
+   		<input type="text" class="input-style">
+   	</label>
+   	<label>
+   		<span><b>*</b>Phone Number:</span>
+   		<input type="text" class="input-style">
+   		<span class="note">Note: Required by courier/postman to ensure delivery and prevent delays. This MUST be the correct number.</span>
+   	</label>
+   	<label>
+   		<span><b>*</b>ZIP/Postal Code:</span>
+   		<input type="text" class="input-style">
+   	</label>
+   	<input type="submit" class="button-lardge custom" value="Confirm Edit">
+   </form>
+  </div>
+  <div id="personal-orders">
+  <div class="wrap-orders">
+     <div class="orders-info">
+   	<div>
+   		<span class="data-orders">Jan 10, 2017 </span><span class="time-orders">04:33:29 AM</span>
+   	</div>
+   	<div>
+   		<span class="order-number">Order number:</span> <span class="number">W1601091433294443</span>
+   	</div>
+   	<div>
+   		<span class="shop-method">Shipping method:</span> <span class="method-type">Flat Rate Shipping</span>
+   	</div>
+   </div>
+   <div class="block-personal-orders">
+
+							<table>
+									<tr>
+										<td class="cart-personal-orders">
+											<div class="cart-personal-orders"><img src="{{products.[0].images.[0].small}}" alt=""></div>
+										</td>
+										<td class="orders-name-prodct" data-title="Product">
+											<span>{{products.[0].name}}</span>
+										</td>
+										<td class="orders-count" data-count="Number">
+											<span>1</span>
+										</td>
+										<td class="orders-price" data-price="Price">
+											<span>{{products.[0].price}}</span>
+										</td>
+										<td class="status-delivery" data-status="Status">
+										<span>Delivered</span>
+										</td>
+									</tr>	
+							</table>
+					</div>
+	   <div class="block-personal-orders">
+
+							<table>
+									<tr>
+										<td class="cart-personal-orders">
+											<div class="cart-personal-orders"><img src="{{products.[1].images.[0].small}}" alt=""></div>
+										</td>
+										<td class="orders-name-prodct" data-title="Product">
+											<span>{{products.[1].name}}</span>
+										</td>
+										<td class="orders-count" data-count="Number">
+											<span>1</span>
+										</td>
+										<td class="orders-price" data-price="Price">
+											<span>{{products.[1].price}}</span>
+										</td>
+										<td class="status-delivery" data-status="Status">
+										<span>Delivered</span>
+										</td>
+									</tr>	
+							</table>
+					</div>
+  </div>
+  <div class="wrap-orders">
+     <div class="orders-info">
+   	<div>
+   		<span class="data-orders">Jan 10, 2017 </span><span class="time-orders">04:33:29 AM</span>
+   	</div>
+   	<div>
+   		<span class="order-number">Order number:</span> <span class="number">W1601091433294443</span>
+   	</div>
+   	<div>
+   		<span class="shop-method">Shipping method:</span> <span class="method-type">Flat Rate Shipping</span>
+   	</div>
+   </div>
+   <div class="block-personal-orders">
+
+							<table>
+									<tr>
+										<td class="cart-personal-orders">
+											<div class="cart-personal-orders"><img src="{{products.[2].images.[0].small}}" alt=""></div>
+										</td>
+										<td class="orders-name-prodct" data-title="Product">
+											<span>{{products.[2].name}}</span>
+										</td>
+										<td class="orders-count" data-count="Count">
+											<span>2</span>
+										</td>
+										<td class="orders-price" data-price="Price">
+											<span>{{products.[2].price}}</span>
+										</td>
+										<td class="status-delivery" data-status="Status">
+										<span>In the delivery path</span>
+										</td>
+									</tr>	
+							</table>
+					</div>
+	   <div class="block-personal-orders">
+
+							<table>
+									<tr>
+										<td class="cart-personal-orders">
+											<div class="cart-personal-orders"><img src="{{products.[3].images.[0].small}}" alt=""></div>
+										</td>
+										<td class="orders-name-prodct" data-title="Product">
+											<span>{{products.[3].name}}</span>
+										</td>
+										<td class="orders-count" data-count="Count">
+											<span>1</span>
+										</td>
+										<td class="orders-price" data-price="Price">
+											<span>{{products.[3].price}}</span>
+										</td>
+										<td class="status-delivery" data-status="Status">
+										<span>In the delivery path</span>
+										</td>
+									</tr>	
+							</table>
+					</div>
+  </div>
+  </div>
+    <div id="personal-wish">
+  <div class="wrap-wish">
+
+	   <div class="block-personal-wish">
+
+							<table>
+									<tr>
+										<td class="cart-personal-wish">
+											<div class="cart-personal-wish"><a href="page_product_2.html"><img src="{{products.[0].images.[0].small}}" alt=""></a></div>
+										</td>
+										<td class="wish-name-prodct" data-title="Product">
+											<a href="page_product_2.html"><span>{{products.[0].name}}</span></a>
+										</td>
+										<td class="wish-count" data-count="Number">
+											<span>1</span>
+										</td>
+										<td class="wish-price" data-price="Price">
+											<span>{{products.[0].price}}</span>
+										</td>
+										<td class="custom">
+										<a href="#" class="button-small">add to cart</a>
+										</td>
+										<td>
+											<a href="page_cart-step-one.html" class="delete-cart-product  js-delete-cart"></a>
+										</td>
+									</tr>	
+							</table>
+					</div>
+			   <div class="block-personal-wish">
+
+							<table>
+									<tr>
+										<td class="cart-personal-wish">
+											<div class="cart-personal-wish">
+											<a href="page_product_2.html"><img src="{{products.[1].images.[0].small}}" alt=""></a>
+											</div>
+										</td>
+										<td class="wish-name-prodct" data-title="Product">
+											<a href="page_product_2.html"><span>{{products.[1].name}}</span></a>
+										</td>
+										<td class="wish-count" data-count="Number">
+											<span>1</span>
+										</td>
+										<td class="wish-price" data-price="Price">
+											<span>{{products.[1].price}}</span>
+										</td>
+										<td class="custom">
+										<a href="page_cart-step-one.html" class="button-small">add to cart</a>
+										</td>
+										<td>
+											<a href="#" class="delete-cart-product  js-delete-cart"></a>
+										</td>
+									</tr>	
+							</table>
+					</div>
+  </div>
+
+  </div>
+</div>
+</div>
+</div>

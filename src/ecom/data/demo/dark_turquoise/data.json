@@ -1,0 +1,209 @@
+{
+    "name": "ecom",
+    "url": "http://ecom.webark.io",
+    "color": "dark_turquoise",
+    "menu": [{
+        "title": "Manufacturer",
+        "url": "index.html",
+        "submenu": [{
+            "title": "Manufacturer",
+            "url": "#"
+        }, {
+            "title": "Manufacturer",
+            "url": "#"
+        }, {
+            "title": "Manufacturer",
+            "subsubmenu": [{
+                "title": "OM646 Bi-turbo",
+                "url": "#"
+            }, {
+                "title": "Kompressor M271",
+                "url": "#"
+            }, {
+                "title": "CA shipments",
+                "url": "#"
+            }]
+        }]
+    }, {
+        "title": "Engine parts",
+        "url": "product_accessories.html"
+    }, {
+        "title": "Bodyshell",
+        "url": "product_gadgets.html"
+    }, {
+        "title": "Electrics",
+        "url": "product_laptops.html"
+    }, {
+        "title": "Fuel system",
+        "url": "product_computers.html"
+    }, {
+        "title": "Steering",
+        "url": "product_audio.html"
+    }, {
+        "title": "Wheels and tires",
+        "url": "product_gps.html"
+    }],
+    "products": [{
+        "name": "OM646 Bi-turbo",
+        "image": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_1_1.jpg",
+        "type": "Engine",
+        "manufacturer": "Manufacturer",
+        "price": "$2340",
+        "sale": "",
+        "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_1_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_1_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_1_1_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_4_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_4_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_4_1_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_1_3.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_1_3_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_1_3_80x80.jpg"
+        }]
+    }, {
+        "name": "Kompressor M271",
+        "image": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_1.jpg",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$1689",
+        "sale": "",
+         "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_1_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_2.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_2_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_2_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_1_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_2.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_2_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_2_80x80.jpg"
+        }]
+    }, {
+        "name": "CA shipments",
+        "image": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_3_1.jpg",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$1344",
+        "sale": "",
+        "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_3_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_3_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_3_1_80x80.jpg"
+        }, 
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_3_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_3_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_3_1_80x80.jpg"
+        }]
+    }, {
+        "name": "OE Replacement",
+        "image": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_4_1.jpg",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$788.99",
+        "sale": "",
+        "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_4_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_4_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_4_1_80x80.jpg"
+        }]
+    }, {
+        "name": "OM646 Bi-turbo",
+        "image": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_1_1.jpg",
+        "type": "Engine",
+        "manufacturer": "Manufacturer",
+        "price": "$2340",
+        "sale": "",
+         "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_1_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_1_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_1_1_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_4_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_4_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_4_1_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_1_3.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_1_3_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_1_3_80x80.jpg"
+        }]
+    }, {
+        "name": "Kompressor M271",
+        "image": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_1.jpg",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$1689",
+        "sale": "",
+         "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_1_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_2.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_2_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_2_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_1_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_2.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_2_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_2_2_80x80.jpg"
+        }]
+    }, {
+        "name": "CA shipments",
+        "image": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_3_1.jpg",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$1344",
+        "sale": "",
+        "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_3_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_3_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_3_1_80x80.jpg"
+        }, 
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_3_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_3_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_3_1_80x80.jpg"
+        }]
+    }, {
+        "name": "OE Replacement",
+        "image": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_4_1.jpg",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$788.99",
+        "sale": "",
+        "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_4_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_4_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/dark_turquoise/product_4_1_80x80.jpg"
+        }]
+    }],
+    "products_slide": [{
+       "images": ["http://webark.io/ecom/presentation/html/img/dark_turquoise/baner-1.jpg", "http://webark.io/ecom/presentation/html/img/dark_turquoise/baner-2.jpg", "http://webark.io/ecom/presentation/html/img/dark_turquoise/baner-3.jpg"]
+   }],
+    "products_bunner": [{
+        "image": ["img/bunner-img.jpg"]
+    }]
+}

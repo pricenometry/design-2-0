@@ -1,0 +1,824 @@
+<!doctype html>
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+
+    <title>eCom</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="Webark Systems">
+    <meta name="copyright" content="Webark Systems">
+    <!--meta name="generator" content="Documenter v1.6 http://rxa.li/documenter"-->
+    <!--meta name="date" content="2012-12-21T00:00:00+01:00"-->
+
+
+
+    <link rel="stylesheet" href="css/shCoreDefault.css" media="all" />
+    <link rel="stylesheet" href="css/shThemeDefault.css" media="all" />
+
+    <link rel="stylesheet" href="css/documenter_style.css" media="all">
+
+
+    <script src="js/jquery.1.6.4.js"></script>
+
+    <script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+    <script src="js/jquery.easing.js"></script>
+
+    <script src="js/shCore.js"></script>
+
+    <script src="js/shBrushCss.js"></script>
+    <script src="js/shBrushXml.js"></script>
+    <script src="js/shBrushJScript.js"></script>
+
+
+
+    <script>
+        SyntaxHighlighter.defaults['toolbar'] = false;
+        SyntaxHighlighter.all();
+    </script>
+
+    <script>
+        document.createElement('section');
+        var duration = 500,
+        easing = 'swing';
+    </script>
+    <script src="js/script.js"></script>
+
+    <style>
+        ::-moz-selection {
+            background: #BBBBBB;
+            color: #222222;
+        }
+        ::selection {
+            background: #BBBBBB;
+            color: #222222;
+        }
+        a {
+            color: #335A85;
+        }
+        hr {
+            border-top: 1px solid #666;
+            border-bottom: 1px solid #FFF;
+        }
+        #documenter_sidebar,
+        #documenter_sidebar ol a {
+            background: url("css/img/bt_cubs.png") left top repeat #1c3942;
+            color: #FFF;
+        }
+        #documenter_sidebar ol a {} #documenter_sidebar ol {} #documenter_sidebar ol a {
+            border-top: 1px solid #2B5A74;
+            border-bottom: 1px solid #0e2c44;
+            color: #FFF;
+        }
+        #documenter_sidebar ol a:hover {
+            background: url("css/img/bt_cubs_a.png") left top repeat #133959;
+            color: #FFF;
+            border-top: 1px solid #2B5A74;
+        }
+        #documenter_sidebar ol a.current {
+            background: url("css/img/bt_cubs_a.png") left top repeat #133959;
+            color: #FFF;
+            border-top: 1px solid #2B5A74;
+        }
+        #documenter_copyright {
+            display: block !important;
+            visibility: visible !important;
+        }
+        #documenter_copyright a {
+            color: #fff;
+        }
+        .abtn {
+            display: block;
+            float: left;
+            padding: 10px;
+            color: #333;
+            border: 1px solid #CCC;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+        }
+        .abtn:hover {
+            text-decoration: none;
+            background: #F1F1F1;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="documenter_sidebar">
+        <a href="#documenter_cover" id="documenter_logo"></a>
+        <ol id="documenter_nav">
+            <li><a class="current" href="#documenter_cover">Start</a></li>
+            <li><a href="#file_structure">File structure</a></li>
+            <li><a href="#html_structure">HTML structure</a></li>
+            <li><a href="#css_structure">CSS structure</a></li>
+            <li><a href="#javascript_structure">Javascript structure</a></li>
+            <li><a href="#install-package">How to install node and grunt</a></li>
+            <li><a href="#grunt-tasks">Grunt tasks</a></li>
+            <li><a href="#credits">Credits</a></li>
+            <li><a href="#img_information">Images information</a></li>
+            <li><a href="#changelog">Changelog</a></li>
+        </ol>
+        <div id="documenter_copyright">Copyright Webark Systems 2017
+            <br> made with the <a href="http://rxa.li/documenter">Documenter v1.0</a>
+        </div>
+    </div>
+    <div id="documenter_content">
+        <section id="documenter_cover">
+            <h1>eCom</h1>
+            <hr>
+            <ul>
+                <li>Created: 19/01/2017</li>
+                <li>latest Update: 19/01/2017</li>
+                <li>By: Webark Systems</li>
+                <li>Support: <a href="https://themeforest.net/user/webarkio">Webark support</a>
+                </li>
+            </ul>
+
+            For start demo open <b>dest/index.html</b> file in your browser or click on this button:<br><br>
+            <a href="http://ecom.webark.io/" class="abtn">Start demo</a>
+        </section>
+
+    <section id="file_structure">
+        <h3>File structure</h3>
+        <hr class="notop">
+
+        <table>
+            <tbody>
+                <tr>
+                    <td><img src="css/img/_folder.png" style="float: left; margin: -2px 5px 0px 0px;"><b>dest</b></td>
+                    <td>Main folder consists 6 predefined static sites blue, dark_turquoise, green, orange, pink and purple. Also you can find "index.html" file for start demo.</td>
+                </tr>
+                <tr>
+                    <td><img src="css/img/_folder.png" style="float: left; margin: -2px 5px 0px 0px;"><b>docs</b></td>
+                    <td>Documentation folder</td>
+                </tr>
+                <tr>
+                    <td><img src="css/img/_folder.png" style="float: left; margin: -2px 5px 0px 0px;"><b>licenses</b></td>
+                    <td>Licenses files</td>
+                </tr>                
+                <tr>
+                    <td><img src="css/img/_folder.png" style="float: left; margin: -2px 5px 0px 0px;"><b>src</b></td>
+                    <td>Handlebars sources are located here. This folder is used for generate static sites to "dest" folder.</td>
+                </tr>
+                <tr>
+                    <td><img src="css/img/_file.png" style="float: left; margin: -2px 5px 0px 0px;"><b>package.json</b></td>
+                    <td>config file for npm package manager</td>
+                </tr>                              
+                <tr>
+                    <td><img src="css/img/_file.png" style="float: left; margin: -2px 5px 0px 0px;"><b>Gruntfile.js</b></td>
+                    <td>onfig file for Grunt</td>
+                </tr>  
+            </tbody>
+        </table>
+       
+    </section>
+        <section id="html_structure">
+            <h3>HTML structure</h3>
+            <hr class="notop">
+            <h4>Structure of default HTML file</h4>
+            <pre class="brush: html">
+&lt;!DOCTYPE html&gt;
+&lt;!--[if lt IE 7 ]&gt;&lt;html class="ie ie6" lang="en"&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 7 ]&gt;&lt;html class="ie ie7" lang="en"&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 8 ]&gt;&lt;html class="ie ie8" lang="en"&gt; &lt;![endif]--&gt;
+&lt;!--[if (gte IE 9)|!(IE)]&gt;&lt;!--&gt;&lt;html lang="en"&gt; &lt;!--&lt;![endif]--&gt;
+
+&lt;head&gt;
+&lt;!-- CSS files here --&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;body&gt;
+    &lt;div id="header"&gt; &lt;!-- Page Header --&gt;
+       ...
+    &lt;/div&gt;&lt;!-- Page Header End --&gt;
+    &lt;div id="main-content"&gt; &lt;!-- Page Main Content --&gt;
+        ...
+    &lt;/div&gt;
+    &lt;div id="footer"&gt;&lt;!-- Page Footer --&gt;
+        ...
+    &lt;/div&gt;
+
+    &lt;!--  Javascript files here --&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+            </pre>
+
+            <h4>Header structure</h4>
+
+            <pre class="brush: xml">
+    &lt;div id="header"&gt; &lt;!-- Page Header Start --&gt;
+        &lt;div class="top-menu-mob"&gt; &lt;!-- Mobile menu --&gt;
+            ...
+        &lt;/div&gt;
+        &lt;div class="header-top"&gt; &lt;!-- Header Top Menu --&gt;
+            ...
+        &lt;/div&gt;
+        &lt;div class="header-center"&gt; &lt;!-- Header Search Line --&gt;
+            ...
+        &lt;/div&gt;
+        &lt;div class="header-bottom"&gt; &lt;!-- Header Main Menu --&gt;
+            ...
+        &lt;/div&gt;
+    &lt;/div&gt;&lt;!-- Page Header End --&gt;
+            </pre>
+
+<h4>Footer structure</h4>
+<p>You can use diffenent menu in mobile and desktop version </p>
+        <pre class="brush: html">
+            &lt;div id="footer"&gt; 
+                &lt;div class="footer"&gt; &lt;!-- Desktop footer --&gt;
+                    &lt;div class="box-1675"&gt;
+                        &lt;div class="container-fluid"&gt;
+                            &lt;div class="row box-title-footer"&gt;
+                                &lt;div class="col-md-2 col-sm-2"&gt;&lt;div class="title-footer"&gt;Title Category&lt;/div&gt;&lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class="row"&gt;
+                                &lt;div class="hr-footer"&gt;&lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class="row"&gt;
+                                &lt;div class="col-md-2 col-sm-2 text-footer"&gt; 
+                                    &lt;ul&gt;
+                                        &lt;li&gt;&lt;a href="#"&gt;Link category&lt;/a&gt;&lt;/li&gt;
+                                        &lt;li&gt;&lt;a href="#"&gt;Link category&lt;/a&gt;&lt;/li&gt;
+                                    &lt;/ul&gt; 
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+               &lt;div class="footer-mob"&gt;&lt;!-- Mobile footer --&gt;
+                    &lt;div class="container"&gt;
+                        &lt;div class="row" id="js-footer-item"&gt;
+                            &lt;div class="footer-wrap-mob"&gt;
+                                &lt;div class="title-footer-wrap-mob"&gt;Title Category&lt;/div&gt;
+                                &lt;ul&gt;
+                                    &lt;li&gt;&lt;a href="#"&gt;Link category&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a href="#"&gt;Link category&lt;/a&gt;&lt;/li&gt;  
+                                &lt;/ul&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        </pre>
+
+
+            <h4>Navigation menu mobile</h4>
+
+            <pre class="brush: html">
+                &lt;nav class="mnu-toggle"&gt;
+                    &lt;form action="/" class="search-form-mob"&gt;
+                        &lt;i class="fa fa-search" aria-hidden="true"&gt;&lt;/i&gt;
+                        &lt;input type="submit" class="submit-search-mob" value=""/&gt;
+                        &lt;input type="search" class="input-search-mob" placeholder="Search"  autofocus/&gt;
+                        &lt;div class="clear-searh-mob"&gt;&lt;/div&gt;
+                    &lt;/form&gt;
+                &lt;ul&gt;&lt;!-- First level --&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Link name&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a class="level-two" href="#"&gt;Link name&lt;i class="fa fa-angle-down" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;
+                        &lt;ul&gt; &lt;!-- Second level --&gt;
+                            &lt;li&gt;&lt;a href="#"&gt;Link name&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href="#"&gt;Link name&lt;/a&gt;&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;/nav&gt;
+            </pre>
+            <h4>Navigation menu desktop</h4>
+
+            <pre class="brush: xml">
+                &lt;div class="header-bottom"&gt; &lt;!-- Desktop Header Bottom Menu Start--&gt;
+                    &lt;div class="box-1675"&gt;
+                        &lt;div class="col-md-12"&gt;
+                            &lt;div class="row"&gt;
+                                &lt;div class="main-menu"&gt; 
+                                    &lt;ul class="ul-main-menu"&gt;&lt;!-- First level --&gt;         
+                                        &lt;li&gt;&lt;a href="#"&gt;Link name&lt;/a&gt;&lt;/li&gt;
+                                        &lt;li&gt;&lt;a class="level-two" href="#"&gt;Link name&lt;i class="fa fa-angle-down" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;
+                                            &lt;ul&gt; &lt;!-- Second level --&gt;
+                                                &lt;li&gt;&lt;a href="#"&gt;Link name&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="#"&gt;Link name&lt;/a&gt;&lt;/li&gt;
+                                            &lt;/ul&gt;
+                                        &lt;/li&gt;                                        
+                                    &lt;/ul&gt; 
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt; <!-- Desktop Header Bottom Menu End--> 
+            </pre>
+
+
+        <h4>Content structure</h4>
+
+        <pre class="brush: html">
+
+            &lt;div class="main-content"&gt;
+                &lt;div class="box-1675"&gt;
+                    &lt;div class="container-fluid"&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="block-sidebar hidden-768"&gt;
+                                &lt;!-- Content sidebar --&gt;
+                            &lt;/div&gt;
+                            &lt;div class="col-content"&gt;
+                                &lt;!-- Content ... --&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        </pre>
+
+</section>
+<section id="css_structure">
+    <h3>CSS structure</h3>
+    <hr class="notop">
+    <pre class="brush: css">        
+       &lt;link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css"&gt;
+       &lt;link rel="stylesheet" href="libs/animate/animate.css"&gt;
+       &lt;link rel="stylesheet" href="libs/bootstrap/css/bootstrap-dropdownhover.min.css"&gt;
+       &lt;link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css"&gt;
+       &lt;link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css"&gt;
+       &lt;link rel="stylesheet" href="libs/owl-carousel/assets/owl.carousel.css"&gt;
+       &lt;link rel="stylesheet" href="libs/waves/css/waves.css"&gt;
+       &lt;link rel="stylesheet" href="css/fonts.min.css"&gt;
+       &lt;link rel="stylesheet" href="css/main.min.css"&gt;
+   </pre>
+
+   <ul>
+    <li><strong>bootstrap-grid.min.css</strong> - Bootstrap-grid default stylesheets</li>
+    <li><strong>animate.css</strong> - Animate stylesheets</li>
+    <li><strong>bootstrap-dropdownhover.min.css</strong> - Bootstrap dropdownhover default stylesheets</li>
+    <li><strong>bootstrap.css</strong> - Botstrap default stylesheets</li>
+    <li><strong>font-awesome.min.css</strong> - Font Awesome stylesheets</li>
+    <li><strong>owl.carousel.css</strong> - Carusel default stylesheets</li>
+    <li><strong>waves.css</strong> - Waves default stylesheets</li>
+    <li><strong>fonts.css</strong> - Fonts stylesheets</li>
+    <li><strong>fonts.min.css</strong> - Minified Fonts file. Use can use unminified "css/fonts.css" file</li>
+    <li><strong>main.min.css</strong> - Minified Main file of stylesheets. Use can use unminified "css/main.css" file</li>
+</ul>
+<p></p>
+
+</section>
+
+<section id="javascript_structure">
+    <h3>JavaScript structure</h3>
+    <hr class="notop">
+    <h4>All HTML pages use next scripts</h4>
+    <pre class="brush: html">  
+
+    <!-- Basic scripts -->
+    &lt;script src='libs/jquery/jquery-3.1.1.min.js' type="text/javascript"&gt;&lt;/script&gt;
+    &lt;script src='libs/waypoints/waypoints.min.js' type="text/javascript"&gt;&lt;/script&gt;
+    &lt;script src='libs/animate/animate-css.js' type="text/javascript"&gt;&lt;/script&gt;
+    &lt;script src='libs/jquery-ui/jquery-ui.min.js' type="text/javascript"&gt;&lt;/script&gt;
+    &lt;script src='libs/jquery-ui/jquery.mousewheel-3.0.4.js' type="text/javascript"&gt;&lt;/script&gt;
+    <!-- Bootstrap js -->
+    &lt;script src='libs/bootstrap/js/bootstrap.min.js' type="text/javascript"&gt;&lt;/script&gt;
+    &lt;script src='libs/bootstrap/js/bootstrap-hover-dropdown.min.js' type="text/javascript"&gt;&lt;/script&gt;
+    &lt;script src='libs/bootstrap/js/bootstrap-dropdownhover.min.js' type="text/javascript"&gt;&lt;/script&gt;
+    &lt;script src='libs/bootstrap/js/bootstrap-select.min.js' type="text/javascript"&gt;&lt;/script&gt;
+    <!-- Masonry plugin -->
+    &lt;script src='libs/masonry/masonry.js' type="text/javascript"&gt;&lt;/script&gt;
+    <!-- Correct display of images for masonry plugin -->
+    &lt;script src='libs/imagesloaded/imagesloaded.pkgd.min.js' type="text/javascript"&gt;&lt;/script&gt;
+    <!-- Slider plugin -->
+    &lt;script src='libs/owl-carousel/owl.carousel.min.js' type="text/javascript"&gt;&lt;/script&gt;
+    <!-- Waves effects for buttons -->
+    &lt;script src='libs/waves/js/waves.min.js' type="text/javascript"&gt;&lt;/script&gt;
+    &lt;script src='js/js/common.js' type="text/javascript"&gt;&lt;/script&gt;
+
+    </pre>
+
+    <h4>Compressed scripts</h4>
+    <p>You can include only 1 script instead of all. So comment all scripts and add next line:</p>
+    <pre class="brush: html">  
+        &lt;script src="js/compressed.min.js"&gt;&lt;/script&gt;
+    </pre>
+
+</section>
+
+    <section id="install-package">
+        <h3>How to install node, npm and grunt</h3>
+        <hr class="notop">
+        <p>For working with sources you shold do next:</p>
+
+        <p>1. Install <a href="https://nodejs.org/en/">Node.js with npm</a></p>
+        <p>2. Install <a href="http://gruntjs.com/">Grunt.js</a>
+        <p>3. Run "npm install" in console</p>
+        <p> After this you can use grunt tasks</p>
+
+    </section>
+    <section id="grunt-tasks">
+        <h3>Grunt tasks</h3>
+        <hr class="notop">
+        <p>1. Command "grunt minify_js" for minify and concat js files</p>
+        <p>2. Command "grunt build" for build all static sites to desc folder. All files in desc folder will be rewrited</p>
+        <p>3. Command "grunt" is alias for "grunt build"</p>
+    </section>
+<section id="credits">
+        <h3>Credits</h3>
+        <hr class="notop">
+
+        <ul>
+            <li><a target="_blank" href="https://jquery.com/">jQuery</a></li>
+            <li><a target="_blank" href="http://jqueryui.com/">jQueryUI</a></li>
+            <li><a target="_blank" href="http://imakewebthings.com/waypoints/">Waypoints</a></li>
+            <li><a target="_blank" href="http://bootstrapdocs.com">Bootstrap</a></li>
+            <li><a target="_blank" href="http://kybarg.github.io/bootstrap-dropdown-hover/">Bootstrap Dropdownhover</a></li>
+            <li><a target="_blank" href="http://silviomoreto.github.io/bootstrap-select/">Bootstrap Select</a></li>
+            <li><a target="_blank" href="http://imagesloaded.desandro.com/">Imagesloaded</a></li>
+            <li><a target="_blank" href="http://www.jqueryscript.net/time-clock/Slick-Circular-jQuery-Countdown-Plugin-Classy-Countdown.html">Classycountdown</a></li>
+            <li><a target="_blank" href="http://www.jqueryscript.net/demo/Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/">OWL Carousel</a></li>
+            <li><a target="_blank" href="http://masonry.desandro.com/">Masonry</a></li>
+            <li><a target="_blank" href="http://fian.my.id/Waves/">Waves</a></li>
+            
+        </ul>
+    </section>
+
+    <section id="img_information">
+        <h3>Images information</h3>
+        <hr class="notop">
+
+
+            <table align="left" border="3" cellpadding="1" cellspacing="1" style="width: 500px">
+            <h5>Repair parts</h5>
+
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Link</th>
+                    <th scope="col">License</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>https://pixabay.com/en/bearing-3d-ball-cage-engineering-1595147/</td>
+                    <td>CC0</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>https://pixabay.com/en/ball-bearings-rolling-bearings-stock-1705889/</td>
+                    <td>CC0</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>https://pixabay.com/en/ball-bearing-bearing-alternator-513462/</td>
+                    <td>CC0</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>https://pixabay.com/en/ball-bearings-rolling-bearings-1236203/</td>
+                    <td>CC0</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>https://pixabay.com/en/banjo-bolt-automotive-mechanic-509636/</td>
+                    <td>CC0</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>https://pixabay.com/en/auto-parts-parts-brakes-1767194/</td>
+                    <td>CC0</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>https://pixabay.com/en/torx-bit-t30-wrench-socket-tool-509530/</td>
+                    <td>CC0</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+
+    <table align="left" border="3" cellpadding="1" cellspacing="1" style="width: 500px">
+            <h5>Sport stuff</h5>
+
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Link</th>
+                    <th scope="col">License</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>https://pixabay.com/en/exercise-workout-yoga-foam-roller-1284374/</td>
+                    <td>CC0</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>https://pixabay.com/en/exercise-workout-yoga-foam-1284371/</td>
+                    <td>CC0</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>https://pixabay.com/en/sport-skates-rollerskates-1913034/</td>
+                    <td>CC0</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>https://pixabay.com/en/sport-skates-rollerskates-1913035/</td>
+                    <td>CC0</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>https://pixabay.com/en/child-education-game-kick-kid-1293122/</td>
+                    <td>CC0</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>https://pixabay.com/en/weights-10-lbs-exercise-fitness-958749/</td>
+                    <td>CC0</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>https://pixabay.com/en/weight-fitness-workout-barbell-860625/</td>
+                    <td>CC0</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>https://pixabay.com/en/exercise-workout-yoga-foam-roller-1284373/</td>
+                    <td>CC0</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>https://pixabay.com/en/canteen-bottle-sport-blue-plastic-698140/</td>
+                    <td>CC0</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+
+
+     <table align="left" border="3" cellpadding="1" cellspacing="1" style="width: 500px">
+            <h5>Clothes</h5>
+
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Link</th>
+                    <th scope="col">License</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>https://www.flickr.com/photos/nycmominthecity/5652723396/in/photostream/</td>
+                    <td>CC BY 2.0</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>https://www.flickr.com/photos/nycmominthecity/5652724960/</td>
+                    <td>CC BY 2.0</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>https://www.flickr.com/photos/nycmominthecity/5652153669/</td>
+                    <td>CC BY 2.0</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>https://www.flickr.com/photos/nycmominthecity/5652153029/</td>
+                    <td>CC BY 2.0</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>https://www.flickr.com/photos/nycmominthecity/5652151219/</td>
+                    <td>CC BY 2.0</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>https://www.flickr.com/photos/nycmominthecity/5652152019/</td>
+                    <td>CC BY 2.0</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+
+
+    <table align="left" border="3" cellpadding="1" cellspacing="1" style="width: 500px">
+            <h5>Furniture</h5>
+
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Link</th>
+                    <th scope="col">License</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>https://www.flickr.com/photos/bonsoni_uk/11815665735/</td>
+                    <td>CC BY 2.0</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>https://www.flickr.com/photos/bonsoni_uk/11815665535/</td>
+                    <td>CC BY 2.0</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>https://www.flickr.com/photos/bonsoni_uk/11815672525/</td>
+                    <td>CC BY 2.0</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>https://www.flickr.com/photos/bonsoni_uk/11816408376/in/photostream/</td>
+                    <td>CC BY 2.0</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>https://www.flickr.com/photos/bonsoni_uk/11879261523/</td>
+                    <td>CC BY 2.0</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>https://www.flickr.com/photos/bonsoni_uk/12173746036/in/photostream/</td>
+                    <td>CC BY 2.0</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+
+
+    <table align="left" border="3" cellpadding="1" cellspacing="1" style="width: 500px">
+            <h5>Lingerie</h5>
+
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Link</th>
+                    <th scope="col">License</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>https://www.flickr.com/photos/nycmominthecity/5652725324/in/photostream/</td>
+                    <td>CC BY 2.0</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>https://www.flickr.com/photos/nycmominthecity/5652157099/in/photostream/</td>
+                    <td>CC BY 2.0</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>https://www.flickr.com/photos/nycmominthecity/5652155863/in/photostream/</td>
+                    <td>CC BY 2.0</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>https://www.flickr.com/photos/nycmominthecity/5652724092/in/photostream/</td>
+                    <td>CC BY 2.0</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>https://www.flickr.com/photos/nycmominthecity/5652155147/in/photostream/</td>
+                    <td>CC BY 2.0</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+
+    <table align="left" border="3" cellpadding="1" cellspacing="1" style="width: 500px">
+            <h5>Electronics</h5>
+
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Link</th>
+                    <th scope="col">License</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>http://www.designtory.net/free-psd/new-macbook-air-mockup/</td>
+                    <td>Designtory License</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>http://www.graphicsfuel.com/2016/02/free-branding-and-identity-mockup/</td>
+                    <td>Graphicsfuel License</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>http://creativecrunk.com/imac-retina-display-psd-mockup/</td>
+                    <td>CreativeCrunk Licence</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>http://www.graphicsfuel.com/2017/01/workspace-mockup-psd/</td>
+                    <td>Graphicsfuel License</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+<p>
+    &nbsp;</p>
+
+
+    </section>
+
+    <section id="changelog">
+        <h3>Changelog</h3>
+        <hr class="notop">
+
+        <ul>
+
+            <li>
+                <strong>Version 1.0</strong> - 19.01.2017
+                <ul>
+                    <li>Release</li>
+                </ul>
+            </li>
+        </ul>
+
+    </section>
+</div>
+
+</body>
+
+</html>

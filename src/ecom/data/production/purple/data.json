@@ -1,0 +1,261 @@
+{
+    "name": "ecom",
+    "url": "http://ecom.webark.io",
+    "color": "purple",
+    "menu": [{
+        "title": "Manufacturer",
+        "url": "index.html",
+        "submenu": [{
+            "title": "Manufacturer",
+            "url": "#"
+        }, {
+            "title": "Manufacturer",
+            "url": "#"
+        }, {
+            "title": "Manufacturer",
+            "subsubmenu": [{
+                "title": "Velv femme",
+                "url": "#"
+            }, {
+                "title": "Crossfit T-shirt 036",
+                "url": "#"
+            }, {
+                "title": "Harajuku CO",
+                "url": "#"
+            }]
+        }]
+    }, {
+        "title": "Shirts",
+        "url": "product_accessories.html"
+    }, {
+        "title": "Suits",
+        "url": "product_gadgets.html"
+    }, {
+        "title": "Jackets",
+        "url": "product_laptops.html"
+    }, {
+        "title": "Dresses",
+        "url": "product_computers.html"
+    }, {
+        "title": "Jeans",
+        "url": "product_audio.html"
+    }, {
+        "title": "Pants",
+        "url": "product_gps.html"
+    }],
+    "products": [{
+        "name": "Velv femme",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$19.90",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Crossfit T-shirt 036",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$44.99",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Harajuku CO",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$15.75",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Мао tumblr",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$22.50",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Velv femme",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$19.90",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Crossfit T-shirt 036",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$44.99",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Harajuku CO",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$15.75",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }, {
+        "name": "Мао tumblr",
+        "image": "img/img-products/grey600.png",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$22.50",
+        "sale": "",
+         "images": [{
+            "full": "img/img-products/grey600.png",
+            "medium": "img/img-products/grey250.png",
+            "small": "img/img-products/grey80.png"
+        },{
+            "full": "img/img-products/light_grey600.png",
+            "medium": "img/img-products/light_grey250.png",
+            "small": "img/img-products/light_grey80.png"
+        },
+        {
+            "full": "img/img-products/black600.png",
+            "medium": "img/img-products/black250.png",
+            "small": "img/img-products/black80.png"
+        },
+        {
+            "full": "img/img-products/dark_grey600.png",
+            "medium": "img/img-products/dark_grey250.png",
+            "small": "img/img-products/dark_grey80.png"
+   }]
+    }],
+    "products_slide": [{
+       "images": ["img/img-products/img1920x300.png", "img/img-products/img1920x300.png", "img/img-products/img1920x300.png"]
+   }],
+    "products_bunner": [{
+        "image": ["img/img-products/img249x130.png"]
+   }]
+}

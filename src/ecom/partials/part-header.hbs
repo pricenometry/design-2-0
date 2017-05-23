@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<title>eCom</title>
+	<meta name="description" content="">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="48x48" href="img/favicon/Ecom-favicon-purple-48-x-48">
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/Ecom-favicon-purple-57-x-57">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/Ecom-favicon-purple-72-x-72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/Ecom-favicon-purple-114-x-114.png">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="libs/animate/animate.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-dropdownhover.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/owl-carousel/assets/owl.carousel.css">
+	<link rel="stylesheet" href="libs/waves/css/waves.css">
+
+	 
+	<!-- Uncompressed CSS files
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">  
+	-->
+	
+	<link rel="stylesheet" href="css/fonts.min.css">
+	<link rel="stylesheet" href="css/main.min.css">
+
+	<script src="libs/modernizr/modernizr.js"></script>
+</head>
+<body>
+
+	<div id="header"> <!-- Page Header Start -->
+		<div class="top-menu-mob"> <!-- Top Line Mobile Start -->
+			<div class="header-top-mob">
+				<button class="mnu_container" id="js-mnu_container">
+					<span class="sandwich">
+						<span class="sw-topper"></span>
+						<span class="sw-bottom"></span>
+						<span class="sw-footer"></span>
+					</span>
+				</button>
+				<div class="mnu-popup-mob" id="mnu-popup-mob">
+					<div class="header-top-mob">
+						<div class="logo-popup-mob"><a href="index.html">eCom</a></div>
+					</div>
+					<nav class="mnu-toggle" id="mnu-toggle">
+						<form action="/" class="search-form-mob">
+							<i class="fa fa-search" aria-hidden="true"></i>
+							<input type="submit" class="submit-search-mob" value=""/>
+							<input type="text" class="input-search-mob" id="input-search-mob" placeholder="Search"  autofocus/>
+							<div class="clear-searh-mob" id="clear-searh-mob"></div>
+						</form>
+						<ul>
+							<li ><a href="index.html">Home</a>
+							</li>
+							<li><a class="level-two" href="#">About<i class="fa fa-angle-down" aria-hidden="true"></i>
+							</a>
+							<ul>
+								<li><a href="page_about-us.html">About us</a></li>
+								<li><a href="page_privacy_policy.html">Privacy Policy</a></li>
+							</ul>
+						</li>
+						<li><a href="page_contacts.html">Contact</a></li>
+						<li><a href="page_faq.html">FAQ</a></li>
+						<li ><a class="level-two" href="#">Language<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+							<ul>
+								<li><a href="#">English</a></li>
+								<li><a href="#">Russian</a></li>
+								<li><a href="#">German</a></li>
+							</ul>
+						</li>
+						<li><a href="page_cart-step-empty.html">Cart</a></li>
+						<li><a href="page_account.html">My Account</a></li>
+						<li><a id="js-account-mob" href="">Sign in</a></li>
+					</ul>
+
+					<ul>
+						{{#each menu}}
+						{{#if submenu}}
+						<li><a class="level-two" href="page_product_2.html">{{title}}<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+							<ul>
+								{{#each submenu}}
+								{{#if subsubmenu}}
+								<li><a href="{{url}}">{{title}}</a></li>
+								<li><a class="level-two" href="{{url}}">{{title}}<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+									<ul>
+										{{#each subsubmenu}}
+										<li><a href="{{url}}">{{title}}</a></li>
+										{{/each}}
+									</ul>
+								</li>
+								{{else}}
+								<li><a href="{{url}}">{{title}}</a></li>
+								{{/if}}
+								{{/each}}
+							</ul>
+						</li>
+						{{else}}
+						<li><a href="{{url}}">{{title}}</a></li>
+						
+						{{/if}}
+						{{/each}}
+					</ul>
+
+
+
+				</nav>
+			</div>
+			<div class="logo-mob"><a href="index.html">eCom</a></div>
+			<a href="page_cart-step-one.html" class="bug-mob">
+				<span>2</span>
+			</a>
+		</div>
+	</div> <!-- Top Line Mobile End -->
+	<div class="header-top"> <!-- Top Menu Desktop  Start-->
+		<div class="box-1675">
+			<div class="col-md-12">
+				<div class="row">
+					<div class="top-left" id="top-left">
+						<ul>
+							<li ><a href="index.html">Home</a>
+							</li>
+							<li><a class="level-two" href="#">About<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+								<ul>
+									<li><a href="page_about-us.html">About us</a></li>
+									<li><a href="page_privacy_policy.html">Privacy Policy</a></li>
+								</ul>
+							</li>
+							<li><a href="page_contacts.html">Contact</a></li>
+							<li><a href="page_faq.html">FAQ</a></li>
+						</ul>
+					</div>
+					<div class="top-right" id="top-right">
+						<ul>
+							<li ><a class="level-two" href="#">Language<i class="fa fa-angle-down" aria-hidden="true"></i>
+							</a>
+							<ul>
+								<li><a href="#">English</a></li>
+								<li><a href="#">Russian</a></li>
+								<li><a href="#">German</a></li>
+							</ul>
+						</li>
+						<li><a href="page_cart-step-empty.html">Cart</a></li>
+						<li><a href="page_account.html">My Account</a></li>
+						<li><a id="js-account" href="">Sign in</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div> <!-- Top Menu Desktop  End-->
+<div class="header-center"> <!-- Center Menu Desktop  Start-->
+	<div class="box-1675">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-size-logo" id="col-size-logo">
+					<a href="index.html" class="logo">eCom</a>
+				</div>
+				<div class="col-size-search" id="col-size-search">
+					<div class="box-search" id="box-search">
+						<div class="beats"><i class="fa fa-search" aria-hidden="true"></i>Search for products</div>
+						<div class="main-search-popup" id="main-search-popup">
+							<div class="box-search-popup" id="box-search-popup">
+								<div class="close-popup-search" id="close-popup-search"></div>
+								<div class="search-popup-main">
+									<form id="live-search" action="/" class="search-form" method="post">
+										<fieldset>
+											<input type="text" class="input-search" id="filter" value="" placeholder="Search for products" AUTOCOMPLETE="off" />
+											<span class="clear-searh" id="clear-searh"></span>
+										</fieldset>
+									</form>
+									<nav class="results-search" id="results-search">
+										<ul>
+											<li class="item">
+												<a href="page_product_2.html">
+													<div class="box-img-search"><img src="{{products.[0].image}}" alt=""></div>
+													<div class="box-info-search">
+														<div class="title-search">{{products.[0].name}}</div>
+														<div class="price-search">{{products.[0].price}}</div>
+													</div>
+												</a>
+											</li>
+											<li class="item">
+												<a href="page_product_2.html">
+													<div class="box-img-search"><img src="{{products.[1].image}}" alt=""></div>
+													<div class="box-info-search">
+														<div class="title-search">{{products.[1].name}}</div>
+														<div class="price-search">{{products.[1].price}}</div>
+													</div>
+												</a>
+											</li>
+											<li class="item">
+												<a href="page_product_2.html">
+													<div class="box-img-search"><img src="{{products.[2].image}}" alt=""></div>
+													<div class="box-info-search">
+														<div class="title-search">{{products.[2].name}}</div>
+														<div class="price-search">{{products.[2].price}}</div>
+													</div>
+												</a>
+											</li>
+											<li class="item">
+												<a href="page_product_2.html">
+													<div class="box-img-search"><img src="{{products.[3].image}}" alt=""></div>
+													<div class="box-info-search">
+														<div class="title-search">{{products.[3].name}}</div>
+														<div class="price-search">{{products.[3].price}}</div>
+													</div>
+												</a>
+											</li>
+											<li class="item">
+												<a href="page_product_2.html">
+													<div class="box-img-search"><img src="{{products.[0].image}}" alt=""></div>
+													<div class="box-info-search">
+														<div class="title-search">{{products.[0].name}}</div>
+														<div class="price-search">{{products.[0].price}}</div>
+													</div>
+												</a>
+											</li>
+											<li class="item">
+												<a href="page_product_2.html">
+													<div class="box-img-search"><img src="{{products.[1].image}}" alt=""></div>
+													<div class="box-info-search">
+														<div class="title-search">{{products.[1].name}}</div>
+														<div class="price-search">{{products.[1].price}}</div>
+													</div>
+												</a>
+											</li>
+											<li class="item">
+												<a href="page_product_2.html">
+													<div class="box-img-search"><img src="{{products.[2].image}}" alt=""></div>
+													<div class="box-info-search">
+														<div class="title-search">{{products.[2].name}}</div>
+														<div class="price-search">{{products.[2].price}}</div>
+													</div>
+												</a>
+											</li>
+											<li class="item">
+												<a href="page_product_2.html">
+													<div class="box-img-search"><img src="{{products.[3].image}}" alt=""></div>
+													<div class="box-info-search">
+														<div class="title-search">{{products.[3].name}}</div>
+														<div class="price-search">{{products.[3].price}}</div>
+													</div>
+												</a>
+											</li>
+											<li class="item-rearched">
+												<div class="wrap-results-rearched"><span id="filter-count"></span></div>
+												<div class="wrap-see-all-results" id="wrap-see-all-results"><a href="page_search-results.html">See All Results<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+												</div>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="wrap-allcat" id="wrap-allcat">
+						<select id="cat-select-menu" class="cat-select-menu">
+							<option>All categories</option>
+							{{#each menu}}
+							<option>{{title}}</option>
+							{{/each}}
+						</select>
+					</div>
+				</div>
+				<div class="col-size-buy" id="col-size-buy">
+					<div class="box-buy">
+						<div class="box-inven">
+							<span class="shlist"><a href="page_wish-list.html"><i class="fa fa-heart" aria-hidden="true"></i>
+								Wishlist (10)</a></span>
+								<span class="compare"><a href="page_compare.html"><i class="fa fa-exchange" aria-hidden="true"></i>
+									Compare (3)</a></span>
+								</div>
+							</div>
+							<a href="page_cart-step-one.html" class="box-basket">
+								<div class="basket-price">$5458</div>
+								<div class="basket-count-buy"><span>2</span></div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- Center Menu Desktop  End-->
+		<!-- Center Menu Desktop  End-->
+
+		<!-- Bottom Menu Desktop  Start-->
+		<div class="header-bottom">
+			<div class="box-1675">
+
+				<div class="col-md-12">
+					<div class="row">
+						<div class="main-menu">
+							<ul class="ul-main-menu">
+								{{#each menu}}
+								{{#if submenu}}
+								<li>
+									<div class="dropdown dropdown-inline">
+										<a href="{{url}}" class="dropdown-toggle" data-hover="dropdown">{{title}}</a>
+										<ul class="dropdown-menu  offset-left bordermenu" role="menu">
+											{{#each submenu}}
+											{{#if subsubmenu}}
+											<li class="dropdown">
+												<a href="#">{{title}}<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+
+												<ul class="dropdown-menu">
+													{{#each subsubmenu}}
+													<li><a href="{{url}}">{{title}}</a></li>
+													{{/each}}
+												</ul>
+											</li>
+											{{else}}
+											<li><a href="{{url}}">{{title}}</a></li>
+											{{/if}}
+											{{/each}}
+											
+									</ul>
+								</div>
+							</li>
+							{{else}}
+							<li><a href="{{url}}">{{title}}</a></li>
+							{{/if}}
+							{{/each}}
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Bottom Menu Desktop  End-->
+			</div> <!-- Page Header End -->

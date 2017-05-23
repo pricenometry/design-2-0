@@ -1,0 +1,101 @@
+<!-- Bread Сrumbs Start -->
+<div class="main-bread">
+	<div class="box-1675">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="block-bread">
+					<span><a href="index.html">Home</a></span>
+					<span><i class="fa fa-angle-right" aria-hidden="true"></i>Search results</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Bread Сrumbs End -->
+
+
+<!-- Blocks with the goods Start -->
+<div class="main-search-result">
+	<div class="box-1675">
+		<div class="container-fluid">
+			<div class="row">
+											<div class="col-sidebar">
+				<!-- Block Bar Categories Start -->
+	{{> part-bar_categories}}
+	<!-- Block Bar Categories End -->
+
+	<!-- Block Bar Bunner Start -->
+	{{> part-bar_bunner}}
+	<!-- Block Bar Bunner End -->
+
+	<!-- Block Bar Offers Start -->
+	{{> part-bar_offers}}
+	<!-- Block Bar Offers End -->
+	
+					</div>
+				<div class="wishlist-content">
+				<div class="title-wishlist entry-title">
+				<h1>
+						Search Results
+				</h1>	
+					</div>
+				
+				<div class="wish-list">
+					<div class="block-cart">
+						<a href="page_product_2.html">
+							<table>
+								<tbody>
+									<tr>
+										<td class="cart-thumbnail">
+											<div class="cart-img"><img src="{{products.[0].images.[0].small}}" alt=""></div>
+										</td>
+										<td class="cart-name-prodct" data-title="Product">
+											<span>{{products.[0].name}}</span>
+										</td>
+										<td class="cart-mark" data-mark="Mark">
+											<span>{{products.[0].manufacturer}}</span>
+										</td>
+										<td class="alone-price" data-price="Price">
+											<span>{{products.[0].price}}</span>
+										</td>
+										
+										
+
+									</tr>
+								</tbody>	
+							</table>
+						</a>
+					</div>
+						<div class="block-cart">
+						<a href="page_product_2.html">
+							<table>
+								<tbody>
+									<tr>
+										<td class="cart-thumbnail">
+											<div class="cart-img"><img src="{{products.[1].images.[0].small}}" alt=""></div>
+										</td>
+										<td class="cart-name-prodct" data-title="Product">
+											<span>{{products.[1].name}}</span>
+										</td>
+										<td class="cart-mark" data-mark="Mark">
+											<span>{{products.[0].manufacturer}}</span>
+										</td>
+										<td class="alone-price" data-price="Price">
+											<span>{{products.[1].price}}</span>
+										</td>
+									
+									
+
+									</tr>
+								</tbody>	
+							</table>
+						</a>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- Blocks with the goods End -->
