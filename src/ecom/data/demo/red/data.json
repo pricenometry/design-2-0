@@ -1,0 +1,209 @@
+{
+    "name": "ecom",
+    "url": "http://ecom.webark.io",
+    "color": "orange",
+    "menu": [{
+        "title": "Manufacturer",
+        "url": "index.html",
+        "submenu": [{
+            "title": "Manufacturer",
+            "url": "#"
+        }, {
+            "title": "Manufacturer",
+            "url": "#"
+        }, {
+            "title": "Manufacturer",
+            "subsubmenu": [{
+                "title": "Armchair АC-150KS",
+                "url": "#"
+            }, {
+                "title": "Oregon chair 723",
+                "url": "#"
+            }, {
+                "title": "Parma 180",
+                "url": "#"
+            }]
+        }]
+    }, {
+        "title": "Sofas",
+        "url": "product_accessories.html"
+    }, {
+        "title": "Armchairs",
+        "url": "product_gadgets.html"
+    }, {
+        "title": "Chairs",
+        "url": "product_laptops.html"
+    }, {
+        "title": "Nightstands",
+        "url": "product_computers.html"
+    }, {
+        "title": "Drawers",
+        "url": "product_audio.html"
+    }, {
+        "title": "Tables",
+        "url": "product_gps.html"
+    }],
+    "products": [{
+        "name": "Armchair АC-150KS",
+        "image": "http://webark.io/ecom/presentation/html/img/orange/product_1_1.jpg",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$142.50",
+        "sale": "",
+         "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/orange/product_1_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/orange/product_1_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/orange/product_1_1_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/orange/product_1_2.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/orange/product_1_2_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/orange/product_1_2_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/orange/product_1_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/orange/product_1_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/orange/product_1_1_80x80.jpg"
+        }]
+    }, {
+        "name": "Oregon chair 723",
+        "image": "http://webark.io/ecom/presentation/html/img/orange/product_2_1.jpg",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$98",
+        "sale": "",
+         "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/orange/product_2_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/orange/product_2_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/orange/product_2_1_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/orange/product_1_2.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/orange/product_1_2_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/orange/product_1_2_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/orange/product_3_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/orange/product_3_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/orange/product_3_1_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/orange/product_4_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/orange/product_4_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/orange/product_4_1_80x80.jpg"
+        }]
+    }, {
+        "name": "Parma 180",
+        "image": "http://webark.io/ecom/presentation/html/img/orange/product_3_1.jpg",
+        "type": "",
+        "manufacturer": "Manufacturer",
+        "price": "$4190",
+        "sale": "",
+        "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/orange/product_3_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/orange/product_3_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/orange/product_3_1_80x80.jpg"
+        }, 
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/orange/product_1_2.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/orange/product_1_2_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/orange/product_1_2_80x80.jpg"
+        }]
+    }, {
+        "name": "Roxy Canty RC-11",
+        "image": "http://webark.io/ecom/presentation/html/img/orange/product_4_1.jpg",
+        "type": "",
+        "manufacturer": "Manufacturer",
+        "price": "$875",
+        "sale": "",
+         "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/orange/product_4_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/orange/product_4_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/orange/product_4_1_80x80.jpg"
+        }]
+    }, {
+        "name": "Armchair АC-150KS",
+        "image": "http://webark.io/ecom/presentation/html/img/orange/product_1_1.jpg",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$142.50",
+        "sale": "",
+        "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/orange/product_1_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/orange/product_1_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/orange/product_1_1_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/orange/product_1_2.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/orange/product_1_2_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/orange/product_1_2_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/orange/product_1_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/orange/product_1_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/orange/product_1_1_80x80.jpg"
+        }]
+    }, {
+        "name": "Oregon chair 723",
+        "image": "http://webark.io/ecom/presentation/html/img/orange/product_2_1.jpg",
+        "type": "-",
+        "manufacturer": "Manufacturer",
+        "price": "$98",
+        "sale": "",
+         "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/orange/product_2_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/orange/product_2_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/orange/product_2_1_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/orange/product_1_2.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/orange/product_1_2_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/orange/product_1_2_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/orange/product_3_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/orange/product_3_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/orange/product_3_1_80x80.jpg"
+        },
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/orange/product_4_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/orange/product_4_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/orange/product_4_1_80x80.jpg"
+        }]
+    }, {
+        "name": "Parma 180",
+        "image": "http://webark.io/ecom/presentation/html/img/orange/product_3_1.jpg",
+        "type": "",
+        "manufacturer": "Manufacturer",
+        "price": "$4190",
+        "sale": "",
+        "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/orange/product_3_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/orange/product_3_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/orange/product_3_1_80x80.jpg"
+        }, 
+        {
+            "full": "http://webark.io/ecom/presentation/html/img/orange/product_1_2.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/orange/product_1_2_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/orange/product_1_2_80x80.jpg"
+        }]
+    }, {
+        "name": "Roxy Canty RC-11",
+        "image": "http://webark.io/ecom/presentation/html/img/orange/product_4_1.jpg",
+        "type": "",
+        "manufacturer": "Manufacturer",
+        "price": "$875",
+        "sale": "",
+        "images": [{
+            "full": "http://webark.io/ecom/presentation/html/img/orange/product_4_1.jpg",
+            "medium": "http://webark.io/ecom/presentation/html/img/orange/product_4_1_690x690.jpg",
+            "small": "http://webark.io/ecom/presentation/html/img/orange/product_4_1_80x80.jpg"
+        }]
+    }],
+    "products_slide": [{
+       "images": ["http://webark.io/ecom/presentation/html/img/orange/baner-1.jpg", "http://webark.io/ecom/presentation/html/img/orange/baner-2.jpg", "http://webark.io/ecom/presentation/html/img/orange/baner-3.jpg"]
+   }],
+    "products_bunner": [{
+        "image": ["img/bunner-img.jpg"]
+    }]
+}

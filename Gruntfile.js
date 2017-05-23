@@ -6,7 +6,7 @@ module.exports = function(grunt) {
         scope: 'devDependencies'
     });
 
-    var colors = ["blue", "orange", "pink", "green", "purple", "dark_turquoise"];
+    var colors = ["red"];
 
     var envs = ["demo", "production"];
 
