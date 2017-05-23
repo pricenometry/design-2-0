@@ -1,7 +1,7 @@
 {
-    "name": "ecom",
-    "url": "http://ecom.webark.io",
-    "color": "orange",
+    "name": "Pricenometry.com",
+    "url": "https://pricenometry.com/",
+    "color": "red",
     "menu": [{
         "title": "Manufacturer",
         "url": "index.html",
