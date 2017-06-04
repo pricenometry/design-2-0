@@ -183,7 +183,7 @@
         "name": "Armchair АC-150KS",
         "image": "http://webark.io/ecom/presentation/html/img/orange/product_1_1.jpg",
         "type": "-",
-        "manufacturer": "Manufacturer",
+        "manufacturer": "Amazon",
         "price": "$142.50",
         "sale": "",
          "images": [{
@@ -205,7 +205,7 @@
         "name": "Oregon chair 723",
         "image": "http://webark.io/ecom/presentation/html/img/orange/product_2_1.jpg",
         "type": "-",
-        "manufacturer": "Manufacturer",
+        "manufacturer": "Walmart",
         "price": "$98",
         "sale": "",
          "images": [{
@@ -232,7 +232,7 @@
         "name": "Parma 180",
         "image": "http://webark.io/ecom/presentation/html/img/orange/product_3_1.jpg",
         "type": "",
-        "manufacturer": "Manufacturer",
+        "manufacturer": "Best Buy",
         "price": "$4190",
         "sale": "",
         "images": [{
@@ -249,7 +249,7 @@
         "name": "Roxy Canty RC-11",
         "image": "http://webark.io/ecom/presentation/html/img/orange/product_4_1.jpg",
         "type": "",
-        "manufacturer": "Manufacturer",
+        "manufacturer": "NewEgg",
         "price": "$875",
         "sale": "",
          "images": [{
@@ -261,7 +261,7 @@
         "name": "Armchair АC-150KS",
         "image": "http://webark.io/ecom/presentation/html/img/orange/product_1_1.jpg",
         "type": "-",
-        "manufacturer": "Manufacturer",
+        "manufacturer": "Staples",
         "price": "$142.50",
         "sale": "",
         "images": [{
@@ -283,7 +283,7 @@
         "name": "Oregon chair 723",
         "image": "http://webark.io/ecom/presentation/html/img/orange/product_2_1.jpg",
         "type": "-",
-        "manufacturer": "Manufacturer",
+        "manufacturer": "Target",
         "price": "$98",
         "sale": "",
          "images": [{
@@ -310,7 +310,7 @@
         "name": "Parma 180",
         "image": "http://webark.io/ecom/presentation/html/img/orange/product_3_1.jpg",
         "type": "",
-        "manufacturer": "Manufacturer",
+        "manufacturer": "Costco",
         "price": "$4190",
         "sale": "",
         "images": [{
@@ -327,7 +327,7 @@
         "name": "Roxy Canty RC-11",
         "image": "http://webark.io/ecom/presentation/html/img/orange/product_4_1.jpg",
         "type": "",
-        "manufacturer": "Manufacturer",
+        "manufacturer": "Amazon",
         "price": "$875",
         "sale": "",
         "images": [{

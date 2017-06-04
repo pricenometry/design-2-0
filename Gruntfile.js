@@ -41,6 +41,7 @@ module.exports = function(grunt) {
         'src/ecom/libs/owl-carousel/owl.carousel.min.js',
         'src/ecom/libs/masonry/masonry.js',
         'src/ecom/libs/waves/js/waves.min.js',
+        'src/ecom/libs/chartkick/chartkick.js',
         'src/ecom/js/*.js'
     ];
 

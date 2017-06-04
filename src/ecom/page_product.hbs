@@ -59,12 +59,6 @@
                 <img src="{{products.[0].images.[0].full}}" alt="">
               </div>
               <div class="box-preview-img-product">
-                <div class="preview-img-mini-product preview-product-active" data-full-img="{{products.[0].images.[0].full}}">
-                  <img src="{{products.[0].images.[0].small}}" alt="">
-                </div>
-                <div class="preview-img-mini-product" data-full-img="{{products.[0].images.[1].full}}">
-                  <img src="{{products.[0].images.[1].small}}" alt="">
-                </div>
                 <div class="soc-wrap">
                   <a target="_blank" href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
                   <a target="_blank" href="https://plus.google.com/u/0/104841685075716062830"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
@@ -85,12 +79,7 @@
                 </div>
               </div>
               <div id="context-desdr" class="description">
-
-
-               <p>Lorem ipsum dolor sit amet, quod wisi liber cu ius. Ut augue timeam usu, id nec vero maiestatis efficiendi, est primis neglegentur an. At eam diam nibh labitur. Cum et meliore fierent consequat, eum dicit debitis inimicus an. Lorem ipsum dolor sit amet, quod wisi liber cu ius. Ut augue timeam usu, id nec vero maiestatis efficiendi, est primis neglegentur an. At eam diam nibh labitur Lorem ipsum dolor sit amet, quod wisi liber cu ius. t meliore fierent consequat, eum dicit debitis inimicus an. Lorem ipsum dolor sit amet, quod wisi liber cu ius. Ut augue timeam usu, id nec vero maiestatis efficiendi, est primis neglegentur an cu ius. </p>
-
-               <p>Lorem ipsum dolor sit amet, quod wisi liber cu ius. Ut augue timeam usu, id nec vero maiestatis efficiendi, est primis neglegentur an. At eam diam nibh labitur. Cum et meliore fierent consequat, eum dicit debitis inimicus an. Lorem ipsum dolor sit amet, quod wisi liber cu ius. Ut augue timeam usu, id nec vero maiestatis efficiendi, est primis neglegentur an. At eam diam nibh labitur Lorem ipsum dolor sit amet, quod wisi liber cu ius. t meliore fierent consequat, eum dicit debitis inimicus an. Lorem ipsum dolor sit amet, quod wisi liber cu ius. Ut augue timeam usu, id nec vero maiestatis efficiendi, est primis neglegentur an cu ius.
-               </p>
+               <div id="chart-1" style="height: 300px; width: 100%; text-align: center; color: #999; line-height: 300px; font-size: 14px; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Arial, Helvetica, sans-serif;">Loading...</div>
              </div>
              <form class="wrap-cost" action="/">
                <div class="box-price">
@@ -98,9 +87,6 @@
                    <span class="price-strike">{{products.[2].sale}}</span>
                    <span class="price-normal">{{products.[2].price}}</span>
                  </div>
-                 <div class="box-counter">
-                  <input id="spinner" name="value" value="1" readonly>
-                </div>
               </div>
               <div class="box-add-cart-product">
               <a href="page_cart-step-one.html" class="add-cart-product button-lardge">Buy Now </a>
@@ -111,7 +97,7 @@
       </div>
       <div class="row">
         <div class="related-products">
-          <div class="title">Related Products</div>
+          <div class="title">Compare Pricing</div>
           <div class="owl-carousel owl-theme" id="owl-carousel">
             <div class="wrap-item">
               <form action="/" class="item">
@@ -555,3 +541,7 @@
      </div>
 
 <!-- Accordion Products for Mobile Start -->
+
+<script type="text/javascript">
+  new Chartkick.LineChart("chart-1", {"2017-04-30":58.99,"2017-05-07":59.0,"2017-05-28":69.99}, {"min":57.99,"max":70.99});
+</script>

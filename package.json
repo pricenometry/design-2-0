@@ -23,6 +23,7 @@
     "grunt-contrib-watch": "^1.0.0",
     "grunt-sass": "^1.2.1",
     "grunt-shell": "^2.1.0",
-    "load-grunt-tasks": "^3.5.2"
+    "load-grunt-tasks": "^3.5.2",
+    "chartkick": "^2.2.4"
   }
 }
