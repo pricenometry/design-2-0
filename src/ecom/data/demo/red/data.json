@@ -1,9 +1,9 @@
 {
-    "name": "Pricenometry.com",
+    "name": "Pricenometry",
     "url": "https://pricenometry.com/",
     "color": "red",
     "menu": [{
-        "title": "Manufacturer",
+        "title": "Amazon",
         "url": "index.html",
         "submenu": [{
             "title": "Manufacturer",
@@ -25,22 +25,25 @@
             }]
         }]
     }, {
-        "title": "Sofas",
+        "title": "Walmart",
         "url": "product_accessories.html"
     }, {
-        "title": "Armchairs",
+        "title": "NewEgg",
         "url": "product_gadgets.html"
     }, {
-        "title": "Chairs",
+        "title": "Staples",
         "url": "product_laptops.html"
     }, {
-        "title": "Nightstands",
+        "title": "Best Buy",
         "url": "product_computers.html"
     }, {
-        "title": "Drawers",
+        "title": "Home Depot",
         "url": "product_audio.html"
     }, {
-        "title": "Tables",
+        "title": "Target",
+        "url": "product_gps.html"
+    }, {
+        "title": "Costco",
         "url": "product_gps.html"
     }],
     "products": [{
@@ -103,7 +106,7 @@
             "full": "http://webark.io/ecom/presentation/html/img/orange/product_3_1.jpg",
             "medium": "http://webark.io/ecom/presentation/html/img/orange/product_3_1_690x690.jpg",
             "small": "http://webark.io/ecom/presentation/html/img/orange/product_3_1_80x80.jpg"
-        }, 
+        },
         {
             "full": "http://webark.io/ecom/presentation/html/img/orange/product_1_2.jpg",
             "medium": "http://webark.io/ecom/presentation/html/img/orange/product_1_2_690x690.jpg",
@@ -181,7 +184,7 @@
             "full": "http://webark.io/ecom/presentation/html/img/orange/product_3_1.jpg",
             "medium": "http://webark.io/ecom/presentation/html/img/orange/product_3_1_690x690.jpg",
             "small": "http://webark.io/ecom/presentation/html/img/orange/product_3_1_80x80.jpg"
-        }, 
+        },
         {
             "full": "http://webark.io/ecom/presentation/html/img/orange/product_1_2.jpg",
             "medium": "http://webark.io/ecom/presentation/html/img/orange/product_1_2_690x690.jpg",

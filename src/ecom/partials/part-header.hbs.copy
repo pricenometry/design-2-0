@@ -6,7 +6,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Pricenometry.com | Realtime Price Trends for ...</title>
+	<title>eCom</title>
 	<meta name="description" content="">
 
 	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
@@ -25,12 +25,12 @@
 	<link rel="stylesheet" href="libs/owl-carousel/assets/owl.carousel.css">
 	<link rel="stylesheet" href="libs/waves/css/waves.css">
 
-
+	 
 	<!-- Uncompressed CSS files
 	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/main.css">  
 	-->
-
+	
 	<link rel="stylesheet" href="css/fonts.min.css">
 	<link rel="stylesheet" href="css/main.min.css">
 
@@ -50,7 +50,7 @@
 				</button>
 				<div class="mnu-popup-mob" id="mnu-popup-mob">
 					<div class="header-top-mob">
-						<div class="logo-popup-mob"><a href="index.html">Pricenometry</a></div>
+						<div class="logo-popup-mob"><a href="index.html">eCom</a></div>
 					</div>
 					<nav class="mnu-toggle" id="mnu-toggle">
 						<form action="/" class="search-form-mob">
@@ -60,20 +60,28 @@
 							<div class="clear-searh-mob" id="clear-searh-mob"></div>
 						</form>
 						<ul>
-							<li ><a href="https://pricenometry.com">Home</a>
+							<li ><a href="index.html">Home</a>
 							</li>
-							<li><a href="http://about.pricenometry.com/what-we-do/">What We Do?</a></li>
-							<li><a href="http://about.pricenometry.com/">Blog</a></li>
-							<li><a href="https://facebook.com/Pricenometry">Facebook</a></li>
-							<li><a href="https://twitter.com/Pricenometry">Twitter</a></li>
-							<li><a href="https://instagram.com/Pricenometry">Instagram</a></li>
-							<li><a href="https://github.com/Pricenometry">Github</a></li>
-							<li><a href="http://developers.pricenometry.com/">Developer API</a></li>
-							<li><a id="js-account-mob" href="http://about.pricenometry.com/get-access/">Get Access</a></li>
-							<li ><a class="level-two" href="#">Terms of Service</a>
-							</li>
-							<li><a href="#">Privacy Policy</a></li>
-						</ul>
+							<li><a class="level-two" href="#">About<i class="fa fa-angle-down" aria-hidden="true"></i>
+							</a>
+							<ul>
+								<li><a href="page_about-us.html">About us</a></li>
+								<li><a href="page_privacy_policy.html">Privacy Policy</a></li>
+							</ul>
+						</li>
+						<li><a href="page_contacts.html">Contact</a></li>
+						<li><a href="page_faq.html">FAQ</a></li>
+						<li ><a class="level-two" href="#">Language<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+							<ul>
+								<li><a href="#">English</a></li>
+								<li><a href="#">Russian</a></li>
+								<li><a href="#">German</a></li>
+							</ul>
+						</li>
+						<li><a href="page_cart-step-empty.html">Cart</a></li>
+						<li><a href="page_account.html">My Account</a></li>
+						<li><a id="js-account-mob" href="">Sign in</a></li>
+					</ul>
 
 					<ul>
 						{{#each menu}}
@@ -98,7 +106,7 @@
 						</li>
 						{{else}}
 						<li><a href="{{url}}">{{title}}</a></li>
-
+						
 						{{/if}}
 						{{/each}}
 					</ul>
@@ -107,7 +115,7 @@
 
 				</nav>
 			</div>
-			<div class="logo-mob"><a href="index.html">Pricenometry</a></div>
+			<div class="logo-mob"><a href="index.html">eCom</a></div>
 			<a href="page_cart-step-one.html" class="bug-mob">
 				<span>2</span>
 			</a>
@@ -119,30 +127,31 @@
 				<div class="row">
 					<div class="top-left" id="top-left">
 						<ul>
-							<li ><a href="https://pricenometry.com">Home</a>
-							</li>
-							<li><a class="level-two" href="#">Social<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-								<ul>
-									<li><a href="https://facebook.com/Pricenometry">Facebook</a></li>
-									<li><a href="https://twitter.com/Pricenometry">Twitter</a></li>
-									<li><a href="https://instagram.com/Pricenometry">Instagram</a></li>
-									<li><a href="https://github.com/Pricenometry">Github</a></li>
-								</ul>
+							<li ><a href="index.html">Home</a>
 							</li>
 							<li><a class="level-two" href="#">About<i class="fa fa-angle-down" aria-hidden="true"></i></a>
 								<ul>
-									<li><a href="http://about.pricenometry.com/what-we-do/">What We Do?</a></li>
-									<li><a href="http://about.pricenometry.com/">Blog</a></li>
-									<li><a id="js-account" href="#">Terms of Service</a></li>
-									<li><a id="js-account" href="#">Privacy Policy</a></li>
+									<li><a href="page_about-us.html">About us</a></li>
+									<li><a href="page_privacy_policy.html">Privacy Policy</a></li>
 								</ul>
 							</li>
+							<li><a href="page_contacts.html">Contact</a></li>
+							<li><a href="page_faq.html">FAQ</a></li>
 						</ul>
 					</div>
 					<div class="top-right" id="top-right">
 						<ul>
-						<li><a href="http://developers.pricenometry.com/">Developer API</a></li>
-						<li><a href="http://about.pricenometry.com/get-access/">Get Access</a></li>
+							<li ><a class="level-two" href="#">Language<i class="fa fa-angle-down" aria-hidden="true"></i>
+							</a>
+							<ul>
+								<li><a href="#">English</a></li>
+								<li><a href="#">Russian</a></li>
+								<li><a href="#">German</a></li>
+							</ul>
+						</li>
+						<li><a href="page_cart-step-empty.html">Cart</a></li>
+						<li><a href="page_account.html">My Account</a></li>
+						<li><a id="js-account" href="">Sign in</a></li>
 					</ul>
 				</div>
 			</div>
@@ -154,7 +163,7 @@
 		<div class="col-md-12">
 			<div class="row">
 				<div class="col-size-logo" id="col-size-logo">
-					<a href="index.html" class="logo">Pricenometry</a>
+					<a href="index.html" class="logo">eCom</a>
 				</div>
 				<div class="col-size-search" id="col-size-search">
 					<div class="box-search" id="box-search">
@@ -169,7 +178,7 @@
 											<span class="clear-searh" id="clear-searh"></span>
 										</fieldset>
 									</form>
-									<!-- <nav class="results-search" id="results-search">
+									<nav class="results-search" id="results-search">
 										<ul>
 											<li class="item">
 												<a href="page_product_2.html">
@@ -249,19 +258,19 @@
 												</div>
 											</li>
 										</ul>
-									</nav> -->
+									</nav>
 								</div>
 							</div>
 						</div>
 					</div>
-					<!-- <div class="wrap-allcat" id="wrap-allcat">
+					<div class="wrap-allcat" id="wrap-allcat">
 						<select id="cat-select-menu" class="cat-select-menu">
 							<option>All categories</option>
 							{{#each menu}}
 							<option>{{title}}</option>
 							{{/each}}
 						</select>
-					</div> -->
+					</div>
 				</div>
 				<div class="col-size-buy" id="col-size-buy">
 					<div class="box-buy">
@@ -312,7 +321,7 @@
 											<li><a href="{{url}}">{{title}}</a></li>
 											{{/if}}
 											{{/each}}
-
+											
 									</ul>
 								</div>
 							</li>
