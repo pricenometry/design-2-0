@@ -17,7 +17,7 @@
   <span class="price-strike">{{products.[2].sale}}</span>
   <span class="price-normal">{{products.[2].price}}</span>
   <a href="page_cart-step-one.html" class="add-cart-mob button-small">Buy Now </a>
-  <div id="chart-1" style="height: 300px; width: 100%; text-align: center; color: #999; line-height: 300px; font-size: 14px; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Arial, Helvetica, sans-serif;">Loading...</div>
+  <div id="chart-0" style="height: 300px; width: 100%; text-align: center; color: #999; line-height: 300px; font-size: 14px; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Arial, Helvetica, sans-serif;">Loading...</div>
 </div>
 </div>
 <!-- Main Products for Modile End -->
@@ -529,6 +529,12 @@
 
 <!-- Accordion Products for Mobile Start -->
 
+<script src="//www.google.com/jsapi"></script>
+
+<script src='libs/chartkick/chartkick.js' type="text/javascript"></script>
+
 <script type="text/javascript">
+  new Chartkick.LineChart("chart-0", {"2017-04-30":58.99,"2017-05-07":59.0,"2017-05-28":69.99}, {"min":57.99,"max":70.99});
+
   new Chartkick.LineChart("chart-1", {"2017-04-30":58.99,"2017-05-07":59.0,"2017-05-28":69.99}, {"min":57.99,"max":70.99});
 </script>
